@@ -1,0 +1,266 @@
+*
+VAT Consultancy Services in Dubai
+Registration, returns, health checks, voluntary disclosures and FTA audit support - reviewed by chartered accountants.
+Filing a return on time is the easy part of VAT. The hard part happens months earlier - in how a transaction was classified, whether the invoice met FTA requirements, whether that input VAT was ever recoverable, and whether the export you zero-rated actually satisfied the conditions.
+By the time those decisions reach a VAT return, they have usually been repeated across hundreds of entries.
+Nadeem and Umendra Chartered Accountants (NUFCA) works with UAE businesses on the whole chain: registration thresholds, transaction treatment, record-keeping, input VAT recovery, import and export positions, error correction and audit readiness.
+Why VAT Reaches Further Than the Return
+VAT touches sales, purchases, contracts, pricing, invoicing, imports, exports, your accounting system and your cash flow. A single misclassification entered into the ledger does not stay in the ledger - it flows into the return submitted to the Federal Tax Authority.
+Which is why the answer is controls, not just a quarterly filing exercise.
+Our VAT consultants in Dubai support businesses with:
+VAT registration and deregistration
+VAT return preparation and filing
+Transaction-level VAT advisory
+VAT health checks and pre-audit reviews
+Input VAT recovery analysis
+Output VAT reconciliation
+Zero-rated and exempt supply assessments
+Reverse Charge Mechanism reviews
+Import and export VAT advisory
+Tax invoice and ERP template compliance
+VAT accounting and ledger reconciliation
+VAT211 / Form 211 Voluntary Disclosure
+FTA tax audit assistance
+VAT documentation reviews
+VAT training for finance teams
+The goal is not a submitted return. It is a return that is supported by the records behind it.
+VAT Registration Thresholds: AED 375,000 and AED 187,500
+Taxable turnover needs monitoring continuously - not once a year when the accounts are closed. The registration test runs on a rolling basis.
+Mandatory Registration - AED 375,000
+Registration is generally mandatory for a UAE-resident business where either condition is met:
+Taxable supplies and imports exceeded AED 375,000 over the previous 12 months; or
+Taxable supplies and imports are expected to exceed AED 375,000 in the next 30 days.
+Miss the deadline and you face administrative penalties on top of VAT that should have been charged but was not - a bill you often cannot pass back to customers who have already been invoiced.
+Voluntary Registration - AED 187,500
+A UAE-resident business may generally apply to register voluntarily once taxable supplies, imports or qualifying taxable expenses exceed AED 187,500.
+This is worth modelling rather than dismissing. A business below the mandatory threshold that pays significant VAT on its own costs may be better off registered - the recoverable input VAT can outweigh the compliance effort.
+We review turnover, activity mix, expenses and forecast revenue to establish which threshold applies and when.
+5% Standard-Rated, 0% Zero-Rated and Exempt - The Difference That Costs Money
+Zero-rated and exempt look identical from the customer’s side. The customer pays no VAT either way.
+From the supplier’s side they are not remotely the same.
+\u0010\u0012\u001cTreatment
+\u001cRate
+\u001cWhat happens on the supply
+\u001cInput VAT recovery
+\u0012\u001cStandard-rated
+\u001c5%
+\u001cVAT charged to the customer at 5% and reported as output VAT
+\u001cGenerally recoverable, subject to UAE VAT rules
+\u0012\u001cZero-rated
+\u001c0%
+\u001cStill a taxable supply, but VAT applied at 0% where conditions are met
+\u001cGenerally recoverable, subject to applicable rules
+\u0012\u001cExempt
+\u001cExempt
+\u001cNo VAT charged because the supply falls within an exemption
+\u001cInput VAT directly attributable to exempt supplies is generally not recoverable
+\u0011
+Both standard-rated and zero-rated supplies count towards taxable turnover for registration purposes. Exempt supplies are treated differently.
+Standard-rated supplies
+Most goods and services supplied in the UAE carry VAT at 5% unless a specific zero-rating or exemption applies. The supplier charges the 5%, and it is reported as output VAT in the relevant return.
+Zero-rated supplies
+These remain taxable supplies - VAT is simply applied at 0% once every condition is satisfied. Transactions that may qualify include:
+Certain exports of goods
+Certain exports of services
+Qualifying international transportation
+Certain healthcare services
+Certain educational services
+Certain investment precious metals
+Certain newly constructed residential buildings
+An overseas customer is not, by itself, a zero-rating. The conditions and the supporting documentation both have to be in place.
+Exempt supplies
+Certain supplies are exempt altogether. Qualifying examples may include:
+Financial services
+Residential property transactions
+Bare land transactions
+Local passenger transportation
+The recovery consequence is the reason this distinction matters: input VAT directly attributable to exempt activity is generally not recoverable.
+What Misclassification Actually Costs
+Get the treatment wrong and the effects compound across periods:
+Output VAT underdeclared
+Input VAT overclaimed
+Returns that no longer reconcile to the ledger
+Tax invoices issued with the wrong treatment
+Cash-flow pressure when the correction lands
+A Voluntary Disclosure obligation
+FTA administrative penalties
+Wider exposure once an audit begins
+Two examples that appear repeatedly in practice. Applying 0% purely because the customer is overseas, without meeting the export-of-services conditions, leaves output VAT undercharged. Treating an exempt supply as zero-rated leads to input VAT being recovered where there was no entitlement.
+When we assess a transaction, we look at:
+The nature of the supply
+Place-of-supply rules
+Supplier and customer location
+Contractual terms and incoterms
+Import and export documentation
+Whether an exemption applies
+Whether zero-rating conditions are satisfied
+The input VAT recovery position
+How the transaction must be reported in the return
+Our VAT Services in Detail
+1. VAT Registration
+Registration requires taxable turnover to be calculated correctly and evidenced. We review:
+Taxable sales and zero-rated sales
+Imports
+Taxable expenses
+Forecast turnover
+Business activities and trade licence details
+Ownership structure
+Supporting financial records
+We then confirm whether mandatory or voluntary registration applies and prepare the information required through the FTA’s EmaraTax platform.
+2. VAT Return Preparation and Filing
+Registered businesses file according to their assigned tax periods. Returns and the related payment are generally due within 28 days of the end of the tax period.
+Our return work covers:
+Sales and purchase transactions
+Output VAT and recoverable input VAT
+Reverse Charge Mechanism entries
+Imports and exports
+Zero-rated and exempt supplies
+Debit and credit notes
+Adjustments and prior-period corrections
+Before anything is submitted, we reconcile the VAT figures back to the accounting records. Discrepancies get resolved at that stage - not after the FTA finds them.
+3. VAT Health Checks
+A health check is a structured review of filed returns against the records that produced them. It commonly surfaces:
+Incorrect VAT rates applied
+Output VAT omitted
+Duplicated input VAT claims
+Non-recoverable input VAT claimed
+Tax invoices that do not meet requirements
+Reverse charge applied incorrectly or not at all
+Import figures that do not reconcile to customs data
+Zero-rating without supporting evidence
+Exempt supply treatment errors
+Credit notes recorded incorrectly
+Adjustments never reported
+Variances between the VAT returns and the general ledger
+Where an error is found, we assess whether it can be corrected in a later return or whether a formal Voluntary Disclosure is required.
+VAT211 / Form 211 Voluntary Disclosure
+A Voluntary Disclosure is the mechanism for telling the FTA that previously submitted information contained a qualifying error or omission. On the FTA portal the process appears as VAT211 – Voluntary Disclosure / Tax Assessment.
+It may be required where a previously filed position is materially wrong - for instance where:
+Output VAT was omitted
+The wrong VAT rate was applied
+Input VAT was over-recovered
+Input VAT was claimed without valid supporting documents
+Imports were reported incorrectly
+A refund application contained incorrect information
+A return understated VAT payable or overstated recoverable VAT
+Smaller errors may be capable of correction through a subsequent return where the legal conditions are satisfied. FTA guidance applies an AED 10,000 threshold for relevant underpaid-tax errors when determining which correction route applies.
+What a disclosure needs to establish
+Which tax periods were affected
+What caused the error
+Which return boxes changed
+How the corrected figures were calculated
+Whether additional VAT is payable
+What evidence supports the correction
+How we assist
+Identify the affected VAT periods
+Quantify the error
+Reconcile the corrected figures
+Prepare the supporting calculations
+Draft the explanatory documentation
+Review the VAT211 submission content
+Assess likely administrative penalty exposure
+Support the business through follow-up FTA correspondence
+An error left running across multiple periods does not get cheaper. It multiplies.
+FTA Administrative Penalties
+Administrative penalties apply where VAT and Tax Procedures obligations are not met. The framework was amended by Cabinet Decision No. 129 of 2025, with the amended framework taking effect from 14 April 2026.
+Exposure depends on the type of violation, whether it is repeated, the amount of unpaid tax, when the correction is made, and critically whether an FTA audit has already been notified.
+\u0010\u0012\u001cCompliance issue
+\u001cPenalty / treatment
+\u0012\u001cFailure to provide requested records or documents in Arabic
+\u001cAED 5,000
+\u0012\u001cFailure to notify the FTA of required changes to registration information
+\u001cAED 1,000 per violation; AED 5,000 where repeated within 24 months
+\u0012\u001cLegal representative not notifying the FTA of appointment in time
+\u001cAED 1,000, payable by the legal representative
+\u0012\u001cLate payment of payable tax
+\u001cCalculated under the applicable statutory mechanism
+\u0012\u001cSubmission of an incorrect tax return
+\u001cPenalty exposure depends on the circumstances
+\u0012\u001cVoluntary Disclosure on an incorrect return, assessment or refund
+\u001cConsequences depend on timing and the applicable legislation
+\u0012\u001cFailure to disclose before notification of an FTA audit
+\u001cAdditional penalty exposure arises
+\u0011
+Penalty rules change. Schedules published on older websites and blog posts are frequently out of date - verify against current FTA material before relying on any figure.
+FTA VAT Audit Support
+The FTA may audit a business to test whether VAT legislation has been applied correctly. An audit can reach into:
+VAT returns
+Sales and purchase invoices
+General ledger accounts and trial balances
+Bank records
+Contracts
+Credit notes
+Import, export and customs documentation
+Input VAT claims and supporting schedules
+Our audit support includes:
+Pre-audit VAT health checks
+Return-to-ledger reconciliation
+Review of accounting records
+Transaction sampling
+Preparation of supporting documentation
+Review of FTA information requests
+Quantification of VAT exposures
+Reconciliation schedules
+Assistance drafting responses to FTA queries
+Corrective action recommendations
+Organised records shorten audits. Disorganised records extend them, and extended audits tend to find more.
+VAT Issues Specific to Dubai Businesses
+Dubai companies routinely trade across mainland UAE, free zones, designated zones, GCC markets and further afield. That mix produces recurring VAT questions around:
+Import and export of goods
+Export of services
+Designated zone transactions
+Mainland-to-free-zone supplies
+International customers and overseas suppliers
+Reverse Charge Mechanism obligations
+Real estate transactions
+Intercompany charges
+Mixed taxable and exempt activity
+A free zone address does not place a transaction outside the scope of VAT. Treatment follows the nature of the supply and whether the legislative conditions are met.
+Input VAT Recovery
+Registered businesses may generally recover input VAT on eligible business expenses where the conditions are satisfied. \Recovery problems typically originate in:
+Entertainment expenditure
+Motor vehicles available for personal use
+Exempt business activity
+Mixed-use costs
+Supplier invoices that do not meet tax invoice requirements
+Missing tax invoices
+Timing differences
+Partial exemption calculations
+We review claims in both directions - the VAT being claimed that should not be, and the VAT that could have been claimed and was not.
+Tax Invoice Compliance
+Invoices that fall short of UAE VAT requirements create problems for the supplier and for the customer trying to recover the VAT. We check invoices for:
+Supplier details and Tax Registration Number
+Invoice date and sequential tax invoice number
+Customer information where required
+Description of the goods or services
+Taxable amount
+VAT rate and VAT amount
+Total payable
+We also review accounting and ERP invoice templates, because a template error repeats itself on every invoice until someone fixes it.
+Reverse Charge Mechanism
+Under the Reverse Charge Mechanism, the recipient accounts for the VAT instead of the supplier. It is most often relevant when buying goods or services from suppliers outside the UAE.
+Getting it wrong distorts both sides of the return - output VAT and input VAT - which is why reverse charge errors are a common health check finding. We identify which transactions require the treatment and confirm the amounts are reflected correctly.
+Why Businesses Choose NUFCA
+Chartered accountants doing the VAT work. VAT compliance rests on the accounting records underneath it. We reconcile the return to the ledger rather than treating them as separate exercises.
+Experience across sectors. We apply UAE VAT rules to real commercial transactions - trading, services, real estate, cross-border arrangements - not to textbook scenarios.
+Support across the whole VAT lifecycle. Registration, implementation, transaction advisory, return filing, health checks, Voluntary Disclosure, deregistration and FTA audit support.
+Recommendations you can actually implement. Invoice controls, documentation procedures, VAT account mapping, periodic reconciliations, transaction review routines and staff training.
+Coverage across the UAE. VAT, accounting, audit and tax services for businesses in Dubai and the wider Emirates.
+Speak to a VAT Consultant in Dubai
+VAT errors are cheapest on the day they are found. Every period they survive adds to the correction.
+Whether the need is registration, return filing, a transaction opinion, a health check, a VAT211 Voluntary Disclosure or preparation for an FTA audit, we can help.
+Nadeem and Umendra Chartered Accountants\u000b\u000bPhone: 04 325 8361\u000bEmail: info@nufca.com\u000bOffice: 510, 5th Floor, Al Khaleej Centre, Bur Dubai, Dubai, UAE
+Frequently Asked Questions
+What are VAT consultancy services in Dubai?
+They cover the practical management of UAE VAT: registration, classifying transactions correctly, preparing and filing returns, recovering input VAT, correcting past errors through voluntary disclosure, running health checks and handling FTA tax audits.
+What is the mandatory VAT registration threshold in the UAE?
+For UAE-resident businesses, registration is generally mandatory once taxable supplies and imports exceed AED 375,000 across the previous 12 months, or where they are expected to exceed AED 375,000 in the next 30 days.
+What is the voluntary registration threshold?
+A UAE-resident business may generally apply voluntarily once qualifying taxable supplies, imports or taxable expenses exceed AED 187,500, subject to FTA requirements.
+What is the UAE VAT rate?
+The standard rate is 5%. Certain qualifying supplies are zero-rated at 0%, and specified supplies are exempt from VAT.
+What is the difference between zero-rated and exempt?
+Zero-rated supplies are still taxable supplies charged at 0%, and input VAT relating to qualifying zero-rated activity may generally be recovered. Exempt supplies are not taxable supplies, and input VAT directly attributable to them is generally not recoverable.
+When are VAT returns due?
+Returns and the associated payment are generally due within 28 days of the end of the relevant tax period, according to the tax periods assigned to the business.
+This page provides general information on UAE VAT and is not advice for any specific business or transaction. Thresholds, conditions, deadlines and penalties are set out in Federal Decree-Law No. 8 of 2017 on Value Added Tax, the Tax Procedures legislation and the related Cabinet and Ministerial Decisions, all of which may be amended. Please obtain advice on your own circumstances.

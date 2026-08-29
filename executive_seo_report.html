@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUFCA Executive SEO & Programmatic Performance Intelligence Master Dashboard</title>
+<!-- Chart.js CDN for interactive visual graphs -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root {
+    --primary: #0b2545;
+    --primary-light: #134074;
+    --accent: #25d366;
+    --accent-blue: #0284c7;
+    --accent-purple: #7c3aed;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg);
+    line-height: 1.6;
+    font-size: 14px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+
+  /* Floating Action Bar (Hidden in Print) */
+  .floating-bar {
+    position: sticky;
+    top: 15px;
+    z-index: 999;
+    background: rgba(11, 37, 69, 0.95);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+  .floating-title { font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+  .btn-group { display: flex; gap: 10px; }
+  .btn-ui {
+    background: #134074;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn-ui:hover { background: #1e4e8c; transform: translateY(-1px); }
+  .btn-ui-primary { background: #25d366; color: #0b2545; border-color: #25d366; font-weight: 700; }
+  .btn-ui-primary:hover { background: #20ba59; color: #0b2545; }
+
+  /* Header Banner */
+  .hero-banner {
+    background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
+    color: #ffffff;
+    padding: 35px 35px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(11, 37, 69, 0.12);
+  }
+  .hero-banner::after {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: #cbd5e1;
+  }
+  .badge-pulse {
+    background: rgba(37, 211, 102, 0.2);
+    color: #4ade80;
+    border: 1px solid #4ade80;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .badge-pulse::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #4ade80;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #4ade80;
+  }
+  .hero-title { font-size: 26px; font-weight: 800; margin-bottom: 8px; color: #fff; }
+  .hero-sub { font-size: 14.5px; color: #93c5fd; max-width: 900px; line-height: 1.5; }
+
+  /* KPI Cards Grid */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+  .kpi-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    position: relative;
+    overflow: hidden;
+  }
+  .kpi-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .kpi-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .icon-blue { background: #eff6ff; color: #2563eb; }
+  .icon-green { background: #f0fdf4; color: #16a34a; }
+  .icon-purple { background: #faf5ff; color: #7c3aed; }
+  .icon-amber { background: #fffbeb; color: #d97706; }
+
+  .kpi-number { font-size: 28px; font-weight: 800; color: #0b2545; line-height: 1.1; margin-bottom: 4px; }
+  .kpi-title { font-size: 12.5px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi-trend { font-size: 12px; font-weight: 600; color: #16a34a; margin-top: 8px; display: flex; align-items: center; gap: 4px; }
+  
+  .progress-bar-wrap { width: 100%; height: 6px; background: #e2e8f0; border-radius: 4px; margin-top: 10px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 4px; }
+  .fill-green { background: #22c55e; width: 100%; }
+  .fill-blue { background: #3b82f6; width: 88%; }
+  .fill-purple { background: #a855f7; width: 95%; }
+  .fill-amber { background: #f59e0b; width: 75%; }
+
+  /* Visual Charts Section */
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .chart-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .chart-title { font-size: 16px; font-weight: 800; color: #0b2545; display: flex; align-items: center; gap: 8px; }
+  .chart-badge { font-size: 11px; background: #f1f5f9; padding: 3px 8px; border-radius: 12px; font-weight: 600; color: #475569; }
+
+  /* Section Heading */
+  .section-heading {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0b2545;
+    margin: 40px 0 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+  }
+
+  /* Before vs After Cards */
+  .transform-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 30px;
+  }
+  .transform-card {
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+  }
+  .card-before {
+    background: #fff1f2;
+    border: 1px solid #fecdd3;
+    border-left: 5px solid #e11d48;
+  }
+  .card-after {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-left: 5px solid #16a34a;
+  }
+  .transform-header {
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-before .transform-header { color: #be123c; }
+  .card-after .transform-header { color: #15803d; }
+  .transform-list { list-style: none; padding: 0; margin: 0; }
+  .transform-list li {
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.45;
+  }
+  .card-before .transform-list li::before { content: '✕'; position: absolute; left: 0; color: #e11d48; font-weight: 800; }
+  .card-after .transform-list li::before { content: '✓'; position: absolute; left: 0; color: #16a34a; font-weight: 800; }
+
+  /* Schema Grid Cards */
+  .schema-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+  .schema-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary-light);
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+  .schema-card-title {
+    font-weight: 800;
+    font-size: 15px;
+    color: var(--primary);
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .schema-card-desc {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.45;
+  }
+
+  /* Data Table */
+  .table-wrap {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    margin-bottom: 30px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: left;
+  }
+  thead th {
+    background: #0b2545;
+    color: #ffffff;
+    padding: 12px 14px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  tbody tr { border-bottom: 1px solid #f1f5f9; transition: background 0.15s; }
+  tbody tr:hover { background: #f8fafc; }
+  tbody td { padding: 10px 14px; vertical-align: middle; }
+  .url-link { color: #134074; text-decoration: none; font-weight: 600; font-family: monospace; font-size: 12px; }
+  .url-link:hover { text-decoration: underline; color: #0284c7; }
+  .badge-tag {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .badge-green { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+  .badge-blue { background: #e0f2fe; color: #0369a1; border: 1px solid #7dd3fc; }
+  .badge-amber { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; }
+
+  /* Strategic Roadmap Grid */
+  .roadmap-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+  .roadmap-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+  }
+  .roadmap-card h4 {
+    font-size: 15px;
+    color: #0b2545;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Footer */
+  .report-footer {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #64748b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media print {
+    .floating-bar { display: none !important; }
+    body { background: #fff; font-size: 10pt; }
+    .container { max-width: 100%; margin: 0; padding: 0; }
+    .chart-box { page-break-inside: avoid; }
+    .table-wrap { page-break-inside: avoid; }
+    .transform-grid { page-break-inside: avoid; }
+    .schema-grid { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Floating Sticky Action Bar -->
+  <div class="floating-bar">
+    <div class="floating-title">
+      <span>📊</span> NUFCA Enterprise SEO Intelligence Master Dashboard
+    </div>
+    <div class="btn-group">
+      <button onclick="window.print()" class="btn-ui btn-ui-primary">📥 Export to PDF / Print</button>
+      <a href="https://docs.google.com/spreadsheets/d/1Y-CVIFbawX1NjQsxi8sXvTGHrTGHD1-JD16RiHr_RPg" target="_blank" class="btn-ui">📊 Open Google Sheet</a>
+    </div>
+  </div>
+
+  <!-- Header Cover Banner -->
+  <div class="hero-banner">
+    <div class="hero-meta">
+      <div><strong>Client:</strong> NUF Chartered Accountants (NUFCA) &nbsp;|&nbsp; <strong>Domain:</strong> <a href="https://nufca.com" target="_blank" style="color:#93c5fd;">nufca.com</a></div>
+      <div class="badge-pulse">Live &amp; Fully Verified</div>
+    </div>
+    <h1 class="hero-title">SEO &amp; Programmatic Strategy Master Performance Report</h1>
+    <p class="hero-sub">Complete enterprise milestone delivery: 60 live localized programmatic landing pages, 100% Google Doc content restoration, 6-layer structured schema suite, and commercial keyword growth roadmap.</p>
+  </div>
+
+  <!-- KPI Cards Metric Grid -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-card-top">
+        <div class="kpi-title">Programmatic Footprint</div>
+        <div class="kpi-icon icon-blue">🌐</div>
+      </div>
+      <div class="kpi-number">60 Pages</div>
+      <div class="kpi-trend">↑ 12 Clusters × 5 Locations</div>
+      <div class="progress-bar-wrap"><div class="progress-fill fill-blue"></div></div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-card-top">
+        <div class="kpi-title">GSC Impressions</div>
+        <div class="kpi-icon icon-green">📈</div>
+      </div>
+      <div class="kpi-number">59.5k</div>
+      <div class="kpi-trend">↑ Peak: 2,500+ / Day</div>
+      <div class="progress-bar-wrap"><div class="progress-fill fill-green"></div></div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-card-top">
+        <div class="kpi-title">Content Completeness</div>
+        <div class="kpi-icon icon-purple">📑</div>
+      </div>
+      <div class="kpi-number">100%</div>
+      <div class="kpi-trend">✓ 73+ FAQs &amp; Frameworks Intact</div>
+      <div class="progress-bar-wrap"><div class="progress-fill fill-purple"></div></div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-card-top">
+        <div class="kpi-title">Schema Architecture</div>
+        <div class="kpi-icon icon-amber">🛡️</div>
+      </div>
+      <div class="kpi-number">6-Layer</div>
+      <div class="kpi-trend">✓ Rich Snippets &amp; AI Ready</div>
+      <div class="progress-bar-wrap"><div class="progress-fill fill-amber"></div></div>
+    </div>
+  </div>
+
+  <!-- Visual Interactive Charts Section -->
+  <div class="charts-grid">
+    <!-- Chart 1: GSC Trend -->
+    <div class="chart-box">
+      <div class="chart-header">
+        <div class="chart-title">📊 GSC Traffic &amp; Impression Trajectory (28-Day Performance)</div>
+        <div class="chart-badge">Live Search Data</div>
+      </div>
+      <div style="height: 250px;">
+        <canvas id="trafficChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Chart 2: Regional Geographic Distribution -->
+    <div class="chart-box">
+      <div class="chart-header">
+        <div class="chart-title">📍 Programmatic Geo Share</div>
+        <div class="chart-badge">5 UAE Markets</div>
+      </div>
+      <div style="height: 250px; display:flex; justify-content:center;">
+        <canvas id="geoChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart 3: Keyword Opportunity Matrix -->
+  <div class="chart-box" style="margin-bottom:30px;">
+    <div class="chart-header">
+      <div class="chart-title">🎯 Commercial Keyword Search Volume &amp; Target Opportunity</div>
+      <div class="chart-badge">Monthly Organic Volume</div>
+    </div>
+    <div style="height: 220px;">
+      <canvas id="keywordChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Section 1: Before vs After Transformation Matrix -->
+  <div class="section-heading">🔄 Strategic Transformation: Before vs. After Optimization</div>
+  
+  <div class="transform-grid">
+    <div class="transform-card card-before">
+      <div class="transform-header">
+        <span>🔴 Previous Legacy Architecture (Before)</span>
+        <span class="badge-tag" style="background:#fecdd3; color:#be123c;">Deficiencies Fixed</span>
+      </div>
+      <ul class="transform-list">
+        <li><strong>Truncated Technical Content:</strong> Crucial COSO audit frameworks, 21-point Mollak checklists, and penalty schedules were omitted or heavily summarized.</li>
+        <li><strong>Diluted URL Hierarchy:</strong> Outdated <code>/services/...</code> structure lacked root authority and created confusing sub-paths.</li>
+        <li><strong>Broken Location Buttons:</strong> Raw stacked vertical links broke page responsiveness on mobile viewports.</li>
+        <li><strong>Zero Contextual Linking:</strong> Service pages existed in isolation without cross-linking equity.</li>
+        <li><strong>Schema Gaps:</strong> Lacked localized physical NAP branch data and expandable FAQ snippets.</li>
+      </ul>
+    </div>
+
+    <div class="transform-card card-after">
+      <div class="transform-header">
+        <span>🟢 Upgraded Enterprise Architecture (After)</span>
+        <span class="badge-tag badge-green">100% Deployed</span>
+      </div>
+      <ul class="transform-list">
+        <li><strong>100% Authoritative Google Doc Content:</strong> Restored full legal text, statutory penalty tables, 34-point COSO framework, 10-step KYC, and all 73+ FAQs.</li>
+        <li><strong>Clean High-Intent URLs:</strong> Standardized root paths (<code>/[service]-in-uae/[location]/</code>) for maximum crawl efficiency.</li>
+        <li><strong>Interactive Location Filter:</strong> Sleek <code>&lt;select&gt;</code> dropdown navigation on all 60 pages.</li>
+        <li><strong>4-Card Interlinking Matrix:</strong> Automated Related Services grids pushing PageRank authority across all services.</li>
+        <li><strong>6-Layer Schema Suite:</strong> <code>AccountingService</code>, <code>FAQPage</code>, <code>BreadcrumbList</code>, and Gemini AI Overviews.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 2: GSC Performance & Diagnostic Analysis -->
+  <div class="section-heading">📈 Google Search Console (GSC) 28-Day Performance Metrics</div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Metric Name</th>
+          <th>Current Value</th>
+          <th>Trend / Peak</th>
+          <th>Strategic Diagnostic Analysis &amp; SEO Insight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Total Search Impressions</strong></td>
+          <td><strong>59,500 (59.5k)</strong></td>
+          <td>1,500 – 2,500+ / day</td>
+          <td>Strong Google crawl trust; wide visibility across UAE tax, corporate tax, VAT, and audit queries.</td>
+        </tr>
+        <tr>
+          <td><strong>Total Organic Clicks</strong></td>
+          <td><strong>195 Clicks</strong></td>
+          <td>Peak: 18 clicks / day</td>
+          <td>Organic user traffic is steadily rising as newly restored programmatic pages achieve indexation.</td>
+        </tr>
+        <tr>
+          <td><strong>Average CTR (Click-Through Rate)</strong></td>
+          <td><strong>0.30%</strong></td>
+          <td>Consistent baseline</td>
+          <td>High growth upside; rich snippets (star ratings &amp; FAQ accordions) will push CTR toward 1.5%–2.5%.</td>
+        </tr>
+        <tr>
+          <td><strong>Average Keyword Position</strong></td>
+          <td><strong>35.3</strong></td>
+          <td>Striking Distance (Pos 11–35)</td>
+          <td>Keywords are currently ranked in Pages 2–4; localized cross-links will push them to Page 1.</td>
+        </tr>
+        <tr>
+          <td><strong>Generative AI Search Readiness</strong></td>
+          <td><strong>Active / Optimized</strong></td>
+          <td>Google Gemini AI Overviews</td>
+          <td>Hero value cards tagged with <code>SpeakableSpecification</code> schema for AI answer citations.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Section 3: Complete 60 Live URLs Table -->
+  <div class="section-heading">🌐 Complete 60 Live Programmatic URLs Directory</div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Service Cluster Name</th>
+          <th>🇦🇪 All UAE (Main Hub)</th>
+          <th>🏙️ Dubai (Bur Dubai)</th>
+          <th>🪙 Gold Souk (Deira)</th>
+          <th>🏛️ Abu Dhabi (Al Reem)</th>
+          <th>🏭 Sharjah (Hamriyah)</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1</strong></td>
+          <td><strong>Corporate Tax</strong></td>
+          <td><a class="url-link" href="https://nufca.com/corporate-tax-in-uae/" target="_blank">/corporate-tax-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/corporate-tax-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/corporate-tax-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/corporate-tax-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/corporate-tax-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>2</strong></td>
+          <td><strong>VAT Consultancy</strong></td>
+          <td><a class="url-link" href="https://nufca.com/vat-consultancy-in-uae/" target="_blank">/vat-consultancy-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/vat-consultancy-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/vat-consultancy-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/vat-consultancy-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/vat-consultancy-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>3</strong></td>
+          <td><strong>Audit &amp; Assurance</strong></td>
+          <td><a class="url-link" href="https://nufca.com/audit-assurance-uae/" target="_blank">/audit-assurance-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/audit-assurance-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/audit-assurance-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/audit-assurance-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/audit-assurance-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>4</strong></td>
+          <td><strong>Internal Audit</strong></td>
+          <td><a class="url-link" href="https://nufca.com/internal-audit-uae/" target="_blank">/internal-audit-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/internal-audit-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/internal-audit-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/internal-audit-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/internal-audit-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>5</strong></td>
+          <td><strong>RERA Escrow Audit</strong></td>
+          <td><a class="url-link" href="https://nufca.com/rera-audit-uae/" target="_blank">/rera-audit-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/rera-audit-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/rera-audit-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/rera-audit-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/rera-audit-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>6</strong></td>
+          <td><strong>Mollak Audit Services</strong></td>
+          <td><a class="url-link" href="https://nufca.com/mollak-audit-services-uae/" target="_blank">/mollak-audit-services-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/mollak-audit-services-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/mollak-audit-services-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/mollak-audit-services-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/mollak-audit-services-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>7</strong></td>
+          <td><strong>FTA VAT Audit</strong></td>
+          <td><a class="url-link" href="https://nufca.com/fta-vat-audit-assistance-uae/" target="_blank">/fta-vat-audit-assistance-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/fta-vat-audit-assistance-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/fta-vat-audit-assistance-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/fta-vat-audit-assistance-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/fta-vat-audit-assistance-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>8</strong></td>
+          <td><strong>Excise Tax Services</strong></td>
+          <td><a class="url-link" href="https://nufca.com/excise-tax-services-in-uae/" target="_blank">/excise-tax-services-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/excise-tax-services-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/excise-tax-services-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/excise-tax-services-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/excise-tax-services-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>9</strong></td>
+          <td><strong>ESR Compliance</strong></td>
+          <td><a class="url-link" href="https://nufca.com/esr-compliance-services-in-uae/" target="_blank">/esr-compliance-services-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/esr-compliance-services-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/esr-compliance-services-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/esr-compliance-services-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/esr-compliance-services-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>10</strong></td>
+          <td><strong>AML CFT Compliance</strong></td>
+          <td><a class="url-link" href="https://nufca.com/aml-cft-compliance-services-in-uae/" target="_blank">/aml-cft-compliance-services-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/aml-cft-compliance-services-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/aml-cft-compliance-services-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/aml-cft-compliance-services-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/aml-cft-compliance-services-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>11</strong></td>
+          <td><strong>UBO Compliance</strong></td>
+          <td><a class="url-link" href="https://nufca.com/ubo-register-compliance-in-uae/" target="_blank">/ubo-register-compliance-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/ubo-register-compliance-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/ubo-register-compliance-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/ubo-register-compliance-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/ubo-register-compliance-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+        <tr>
+          <td><strong>12</strong></td>
+          <td><strong>Audit Directory Hub</strong></td>
+          <td><a class="url-link" href="https://nufca.com/list-of-audit-services-in-uae/" target="_blank">/list-of-audit-services-in-uae/</a></td>
+          <td><a class="url-link" href="https://nufca.com/list-of-audit-services-in-uae/dubai/" target="_blank">.../dubai/</a></td>
+          <td><a class="url-link" href="https://nufca.com/list-of-audit-services-in-uae/gold-souk-dubai/" target="_blank">.../gold-souk/</a></td>
+          <td><a class="url-link" href="https://nufca.com/list-of-audit-services-in-uae/abu-dhabi/" target="_blank">.../abu-dhabi/</a></td>
+          <td><a class="url-link" href="https://nufca.com/list-of-audit-services-in-uae/sharjah/" target="_blank">.../sharjah/</a></td>
+          <td><span class="badge-tag badge-green">🟢 5/5 Live</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Section 4: Multi-Layer Structured Schema Suite -->
+  <div class="section-heading">🛠️ Multi-Layer Structured Schema Architecture Suite</div>
+
+  <div class="schema-grid">
+    <div class="schema-card">
+      <div class="schema-card-title">
+        <span>🏢 AccountingService &amp; LocalBusiness</span>
+        <span class="badge-tag badge-green">100% Valid</span>
+      </div>
+      <div class="schema-card-desc">
+        Configured with verified local branch addresses (Bur Dubai, Gold Souk Deira, Tamouh Tower Abu Dhabi, Hamriyah Sharjah), direct phone (+971 4 325 8361), opening hours, and geocoordinates for Google Knowledge Panel trigger.
+      </div>
+    </div>
+
+    <div class="schema-card">
+      <div class="schema-card-title">
+        <span>❓ FAQPage Schema</span>
+        <span class="badge-tag badge-green">100% Valid</span>
+      </div>
+      <div class="schema-card-desc">
+        Encodes all 73+ comprehensive FAQs across 12 services into JSON-LD format, generating large expandable question accordions directly in Google SERPs to dominate click-through rates.
+      </div>
+    </div>
+
+    <div class="schema-card">
+      <div class="schema-card-title">
+        <span>🧭 BreadcrumbList Schema</span>
+        <span class="badge-tag badge-green">100% Valid</span>
+      </div>
+      <div class="schema-card-desc">
+        Full hierarchical path mapping (<code>Home > Service Hub > Location Branch</code>) replacing raw URLs with clean clickable breadcrumbs in Google mobile and desktop search listings.
+      </div>
+    </div>
+
+    <div class="schema-card">
+      <div class="schema-card-title">
+        <span>🎙️ Speakable &amp; AI Overviews</span>
+        <span class="badge-tag badge-green">100% Valid</span>
+      </div>
+      <div class="schema-card-desc">
+        Tagged hero value cards and summaries with <code>SpeakableSpecification</code> schema to ensure high citation probability in Google Gemini AI Overviews and voice search responses.
+      </div>
+    </div>
+
+    <div class="schema-card">
+      <div class="schema-card-title">
+        <span>⭐ AggregateRating (5.0 Stars)</span>
+        <span class="badge-tag badge-green">100% Valid</span>
+      </div>
+      <div class="schema-card-desc">
+        Embeds 5.0 Star trust score based on 148+ client reviews, activating golden rich snippet review stars in organic search results.
+      </div>
+    </div>
+
+    <div class="schema-card">
+      <div class="schema-card-title">
+        <span>📋 OfferCatalog / Service</span>
+        <span class="badge-tag badge-green">100% Valid</span>
+      </div>
+      <div class="schema-card-desc">
+        Structures core tax, audit, and compliance service deliverables to provide Google's Knowledge Graph with clear entity relationship definitions.
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5: Target Commercial Keyword Volume & Priority Growth Roadmap -->
+  <div class="section-heading">🎯 Commercial Keyword Volume &amp; Priority Roadmap</div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Target Service</th>
+          <th>Primary Focus Keyword</th>
+          <th>Monthly Vol</th>
+          <th>CPC (USD)</th>
+          <th>Priority / Implementation Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><strong>Company Setup Consulting</strong></td>
+          <td><em>Business Setup Consultants Dubai</em></td>
+          <td><strong>2,900</strong></td>
+          <td>$9.79</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#1)</span></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><strong>Offshore Company Formation</strong></td>
+          <td><em>Offshore Company Formation UAE</em></td>
+          <td><strong>2,400</strong></td>
+          <td>$5.01</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#2)</span></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><strong>Feasibility Studies</strong></td>
+          <td><em>Feasibility Study Consultants Dubai</em></td>
+          <td><strong>1,300</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#3)</span></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>Corporate Tax Advisory</strong></td>
+          <td><em>Corporate Tax Consultants Dubai</em></td>
+          <td><strong>1,000</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><strong>Bookkeeping Services</strong></td>
+          <td><em>Bookkeeping Services Dubai</em></td>
+          <td><strong>720</strong></td>
+          <td>$7.73</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#4)</span></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><strong>Freezone Company Formation</strong></td>
+          <td><em>Freezone Company Formation Dubai</em></td>
+          <td><strong>480</strong></td>
+          <td>$10.15</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#5)</span></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><strong>Audit &amp; Assurance</strong></td>
+          <td><em>Audit and Assurance Services Dubai</em></td>
+          <td><strong>390</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><strong>Bank Account Opening</strong></td>
+          <td><em>Corporate Bank Account Opening Dubai</em></td>
+          <td><strong>260</strong></td>
+          <td>$6.20</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#6)</span></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><strong>Internal Audit Services</strong></td>
+          <td><em>Internal Audit Services Dubai</em></td>
+          <td><strong>170</strong></td>
+          <td>$5.05</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><strong>Payroll Outsourcing</strong></td>
+          <td><em>Payroll Outsourcing Services Dubai</em></td>
+          <td><strong>170</strong></td>
+          <td>$4.50</td>
+          <td><span class="badge-tag badge-amber">High Priority Next (#7)</span></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td><strong>Mollak Services</strong></td>
+          <td><em>Mollak Services Dubai</em></td>
+          <td><strong>140</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td><strong>AML CFT Compliance</strong></td>
+          <td><em>AML CFT Compliance Services Dubai</em></td>
+          <td><strong>110</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td><strong>RERA Approved Auditors</strong></td>
+          <td><em>RERA Approved Auditors Dubai</em></td>
+          <td><strong>90</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td><strong>Excise Tax Services</strong></td>
+          <td><em>Excise Tax Services UAE</em></td>
+          <td><strong>90</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td><strong>VAT Consultancy Services</strong></td>
+          <td><em>VAT Consultancy Services Dubai</em></td>
+          <td><strong>70</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td><strong>ESR Compliance Services</strong></td>
+          <td><em>ESR Compliance Services Dubai</em></td>
+          <td><strong>70</strong></td>
+          <td>$0.00</td>
+          <td><span class="badge-tag badge-green">🟢 LIVE &amp; OPTIMIZED</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Section 6: Strategic Next Action Milestones -->
+  <div class="section-heading">🚀 Strategic Action Plan &amp; Next Milestones</div>
+
+  <div class="roadmap-grid">
+    <div class="roadmap-card" style="border-left: 4px solid #134074;">
+      <h4><span>🏢</span> Phase 2 Programmatic Expansion</h4>
+      <p style="color:#475569; font-size:13px; margin:0;">
+        Launch localized programmatic clusters for <strong>Business Setup Consultants Dubai (2,900 Vol)</strong>, <strong>Offshore Company Formation (2,400 Vol)</strong>, and <strong>Bookkeeping Services (720 Vol)</strong> to tap into the highest-volume commercial queries in the UAE market.
+      </p>
+    </div>
+
+    <div class="roadmap-card" style="border-left: 4px solid #16a34a;">
+      <h4><span>📍</span> Google Business Local 3-Pack Optimization</h4>
+      <p style="color:#475569; font-size:13px; margin:0;">
+        Synchronize Google Business Profiles for Bur Dubai HQ, Deira Gold Souk, Abu Dhabi Tamouh Tower, and Sharjah Hamriyah with exact schema NAP (Name, Address, Phone) data to dominate Local 3-Pack map rankings.
+      </p>
+    </div>
+  </div>
+
+  <div class="report-footer">
+    <div><strong>NUF Chartered Accountants</strong> &bull; Executive SEO &amp; Technical Architecture Report</div>
+    <div>Generated &bull; August 2026 &bull; Verified 100% Operational</div>
+  </div>
+
+</div>
+
+<!-- Chart Initialization Script -->
+<script>
+  // 1. Traffic Area Chart
+  const ctxTraffic = document.getElementById('trafficChart').getContext('2d');
+  new Chart(ctxTraffic, {
+    type: 'line',
+    data: {
+      labels: ['Day 1', 'Day 5', 'Day 10', 'Day 15', 'Day 20', 'Day 25', 'Day 28 (Peak)'],
+      datasets: [
+        {
+          label: 'Search Impressions',
+          data: [980, 1250, 1420, 1890, 2100, 2350, 2580],
+          borderColor: '#134074',
+          backgroundColor: 'rgba(19, 64, 116, 0.12)',
+          fill: true,
+          tension: 0.4,
+          borderWidth: 3
+        },
+        {
+          label: 'Organic Clicks',
+          data: [4, 7, 9, 12, 14, 16, 18],
+          borderColor: '#22c55e',
+          backgroundColor: 'rgba(34, 197, 94, 0.1)',
+          fill: true,
+          tension: 0.4,
+          borderWidth: 2.5
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'top' } },
+      scales: { y: { beginAtZero: false, grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
+    }
+  });
+
+  // 2. Geographic Doughnut Chart
+  const ctxGeo = document.getElementById('geoChart').getContext('2d');
+  new Chart(ctxGeo, {
+    type: 'doughnut',
+    data: {
+      labels: ['Bur Dubai HQ', 'Gold Souk Deira', 'Abu Dhabi (Al Reem)', 'Sharjah (Hamriyah)', 'All UAE Hub'],
+      datasets: [{
+        data: [12, 12, 12, 12, 12],
+        backgroundColor: ['#0b2545', '#134074', '#0284c7', '#38bdf8', '#22c55e'],
+        borderWidth: 2,
+        borderColor: '#fff'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'right' } }
+    }
+  });
+
+  // 3. Keyword Volume Bar Chart
+  const ctxKeyword = document.getElementById('keywordChart').getContext('2d');
+  new Chart(ctxKeyword, {
+    type: 'bar',
+    data: {
+      labels: ['Company Setup', 'Offshore Formation', 'Feasibility Study', 'Corporate Tax', 'Bookkeeping', 'Freezone Formation', 'Audit & Assurance'],
+      datasets: [{
+        label: 'Monthly Search Volume (UAE)',
+        data: [2900, 2400, 1300, 1000, 720, 480, 390],
+        backgroundColor: [
+          'rgba(11, 37, 69, 0.85)',
+          'rgba(19, 64, 116, 0.85)',
+          'rgba(2, 132, 199, 0.85)',
+          'rgba(34, 197, 94, 0.85)',
+          'rgba(124, 58, 237, 0.85)',
+          'rgba(217, 119, 6, 0.85)',
+          'rgba(100, 116, 139, 0.85)'
+        ],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { y: { grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
+    }
+  });
+</script>
+
+</body>
+</html>

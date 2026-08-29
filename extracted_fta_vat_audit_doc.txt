@@ -1,0 +1,134 @@
+
+*
+FTA VAT Audit Assistance in Dubai: What Businesses Need to Know
+Most companies in the UAE meet their VAT obligations without ever thinking hard about them. Returns get filed, payments get made, and the topic disappears until an email arrives from the Federal Tax Authority announcing a tax audit. At that point, the question is no longer whether the business intended to comply — it is whether the records can prove it did.
+That distinction catches out a surprising number of otherwise well-run businesses. An FTA audit is a documentary exercise. Explanations carry weight only when the paperwork behind them holds up. This guide covers how audits actually work, what the FTA examines, where companies typically come unstuck, and how voluntary disclosure and penalty relief fit into the picture.
+How an FTA Tax Audit Actually Begins
+A tax audit is the FTA's formal examination of a taxable person's records to verify that declared liabilities match reality. It is a routine supervisory power, not an accusation, and the Authority does not need a reason to exercise it.
+In practice, businesses are usually notified in writing in advance, with the notice specifying the timing and location. Audits may be conducted at the FTA's own offices using submitted documentation, or at the taxable person's premises. In limited circumstances the Authority can proceed without prior notice — for example where it suspects evidence may be concealed.
+Certain patterns tend to attract attention:
+Repeated refund positions, where input VAT consistently exceeds output VAT
+Sharp swings in reported turnover that do not match the industry or the company's own history
+Persistent late filing or late payment
+Mismatches between VAT returns and customs import data
+A recent voluntary disclosure that reveals systemic rather than isolated errors
+Operating in a sector the FTA is reviewing as a whole
+None of these guarantees an audit, and their absence guarantees nothing either. Selection can be entirely random.
+What the Authority Examines
+An auditor is testing whether the numbers on the return can be traced back through the accounting system to source documents, and whether the VAT treatment applied to each transaction was correct. Expect requests covering:
+Filed VAT returns for the periods under review, alongside proof of payment
+Sales and purchase ledgers, and the ability to reconcile them to the returns
+Tax invoices issued and received, including simplified tax invoices where used
+Credit notes, debit notes and the reasons behind them
+Trial balance, general ledger, and financial statements
+Bank statements, to trace receipts and payments
+Import and export documentation, customs declarations, and evidence supporting zero-rating
+Contracts and agreements that establish the nature and place of supply
+The working papers behind any input tax apportionment
+\u0010\u0012\u001cThe point auditors return to most often
+Reconciliation. If revenue in the audited financial statements does not agree with the total of the VAT returns for the same period, and the business cannot explain the gap line by line, everything else in the audit becomes harder.
+\u0011
+Record Retention: How Far Back Does This Go?
+UAE tax legislation requires taxable persons to retain accounting records and commercial books for a defined minimum period — generally five years following the end of the relevant tax period, with a longer retention requirement applying to real estate records. The FTA's ability to open an audit is likewise subject to statutory time limits, which extend in cases involving voluntary disclosure late in the period, and extend considerably further where tax evasion or failure to register is alleged.
+Because these periods and their exceptions have been amended since VAT was introduced, confirm the limits that apply to your situation against the current Tax Procedures Law and its executive regulations rather than relying on general summaries.
+A Practical Preparation Checklist
+Preparation is far easier when it begins before a notice arrives. Work through the following in order.
+1. Reconcile returns to the books
+Take each filed return and tie it back to the accounting records. Compare declared standard-rated sales, zero-rated sales, exempt supplies, reverse-charge entries and recoverable input tax against the ledger. Document every difference you find and the reason for it — an explained variance is a very different thing from an unexplained one.
+2. Test your tax invoices against the legal requirements
+A valid tax invoice must carry specific content, including the words identifying it as a tax invoice, supplier name, address and TRN, the recipient's details where required, a sequential invoice number, the date of issue and the date of supply where different, a description of the goods or services, the amount payable and the tax charged, and the exchange rate applied where the invoice is not in dirhams. Sample your issued invoices and, more importantly, the ones you received — recovery of input tax depends on holding a compliant document.
+3. Assemble the accounting file
+General ledger, trial balance, profit and loss account, balance sheet, fixed asset register, and bank statements covering the full period. Have them exportable, not just viewable.
+4. Rebuild the VAT reconciliation
+Reconcile output tax per the system to output tax declared, and the same for input tax. Look specifically for credit notes posted without a corresponding return adjustment, transactions recorded in the wrong period, and manual journals touching VAT control accounts.
+5. Gather transaction evidence
+Contracts, purchase orders, delivery notes, proof of export, customs paperwork, and payment records. Zero-rating and out-of-scope treatment are the positions most likely to be challenged, and both stand or fall on evidence.
+6. Deal with known errors before the auditor finds them
+If a review surfaces mistakes, correcting them proactively puts the business in a materially better position than waiting to be asked about them.
+Where Businesses Most Often Go Wrong
+The recurring findings in UAE VAT audits are rarely exotic. They cluster around a handful of issues.
+Recovering input tax that was never recoverable. Entertainment provided to non-employees and certain motor vehicles available for personal use are the classic examples. Blanket recovery on all expenses is a reliable way to generate an assessment.
+Claiming input tax without a valid document. A supplier invoice missing a TRN, or lacking the required content, is not a basis for recovery, however genuine the underlying expense.
+Misapplying zero-rating. Exports, international transport, certain healthcare and education supplies, and qualifying medicines each carry conditions. Treating a supply as zero-rated because the customer is overseas, without holding the required evidence, is a frequent finding.
+Confusing exempt with zero-rated. The distinction changes input tax recovery entirely. Businesses making exempt supplies may need to apportion input tax, and many discover this only under examination.
+Overlooking the reverse charge. Imported services and goods acquired from outside the UAE frequently need to be self-accounted. Because the entry is often tax-neutral, it gets missed — but the disclosure obligation remains.
+Timing errors. Recording supplies in the wrong tax period, or recovering input tax before the entitlement arises, creates differences that surface immediately on reconciliation.
+Letting small errors compound. A minor misclassification repeated across thousands of transactions stops being minor. Errors identified and left uncorrected are treated less sympathetically than errors identified and disclosed.
+Voluntary Disclosure and Form 211
+Form 211 is the mechanism through which a taxable person notifies the FTA of an error or omission in a previously submitted VAT return, tax assessment or refund application. It is filed through EmaraTax and requires the business to identify the affected period, state the corrected figures, and explain the nature of the error.
+The framework distinguishes between larger and smaller errors. Where the error exceeds the prescribed threshold — set at AED 10,000 in tax due — a voluntary disclosure must be submitted within the period specified in the legislation, generally counted in business days from the date the error was discovered. Errors below that threshold may in defined circumstances be corrected through the next return instead, provided a subsequent return exists in which to make the adjustment.
+Two points are worth emphasising. First, the obligation is triggered by discovery, not by convenience — the clock starts when the business becomes aware. Second, the rules governing which errors require disclosure have been amended since VAT was introduced, including in respect of errors that do not change the tax payable. Check the current position before deciding that a correction can wait.
+\u0010\u0012\u001cTiming matters financially
+Percentage-based penalties associated with voluntary disclosure generally increase the longer the correction is delayed, and increase again if the error is instead identified by the FTA during an audit. Disclosing early is usually the cheaper path.
+\u0011
+Penalties and How Relief Works
+Administrative penalties in the UAE VAT regime are set by Cabinet Decision and cover both fixed and percentage-based charges. The main categories are summarised below; specific amounts and rates have been revised more than once, so treat this as an orientation and verify current figures against the FTA's published schedule.
+
+\u0010\u0012\u001cCategory
+\u001cWhat it typically covers
+\u0012\u001cLate registration
+\u001cFailing to apply for registration once the mandatory threshold is met
+\u0012\u001cLate filing
+\u001cSubmitting a VAT return after the deadline, with a higher amount for repeat occurrences
+\u0012\u001cLate payment
+\u001cAn immediate percentage of unpaid tax, plus a monthly charge that accrues up to a capped ceiling
+\u0012\u001cVoluntary disclosure
+\u001cA fixed penalty plus a percentage of the tax difference, scaled by how promptly the disclosure was made
+\u0012\u001cIncorrect return
+\u001cErrors identified in a submitted return, where no valid disclosure was made
+\u0012\u001cRecord keeping
+\u001cFailure to maintain required records, or to produce them in Arabic when requested
+\u0012\u001cObstructing an audit
+\u001cNot facilitating the work of a tax auditor
+\u0011
+Requesting a waiver or instalment plan
+UAE law provides a route for taxable persons to apply to the FTA for administrative penalties to be waived or paid in instalments. Applications are considered by a dedicated committee against defined criteria, and the outcome turns heavily on the quality of the submission.
+A workable application generally involves four stages:
+Establish the exact basis of the penalty. Identify which decision imposed it, for which period, and on what grounds. Applications that misstate the underlying penalty rarely succeed.
+Build the evidential case. The Authority is looking for a genuine and documented reason for the non-compliance — system failures, incapacity of a key individual, circumstances outside the company's control — together with evidence of what was done to correct matters and prevent recurrence.
+Submit through EmaraTax within the applicable window. Requests are made through the FTA's online portal with supporting documents attached. Deadlines apply, and late requests can be rejected on that basis alone.
+Respond promptly to follow-up queries. The committee may request further information. Delays at this stage weaken an otherwise sound application.
+A waiver is discretionary. Approaching it as a formality, or submitting a general appeal for leniency without documentation, is the most common reason applications fail.
+What Professional Audit Support Adds
+Businesses generally engage a tax adviser for one of two reasons: an audit notice has arrived, or management wants to know what an auditor would find before one does. The second is considerably cheaper.
+A pre-audit health check
+A structured review of filed returns against the underlying records, testing invoice compliance, input tax recovery positions, zero-rating evidence and reverse-charge treatment. The output is a list of exposures ranked by materiality, with a remediation plan for each.
+Correcting the past properly
+Deciding whether an error requires a voluntary disclosure, correction in the next return, or no action, and preparing the disclosure so that it is complete and internally consistent. A poorly drafted Form 211 can invite scrutiny rather than close it.
+Managing the audit itself
+Assembling the requested documentation in the format the FTA expects, controlling the flow of information so responses are accurate and consistent, and drafting technical explanations where a treatment needs to be defended by reference to the legislation.
+Handling the outcome
+If an assessment is issued, there are formal routes to challenge it — reconsideration to the FTA, and beyond that the objection and appeal process — each with strict deadlines. Missing a deadline usually ends the argument regardless of its merits.
+Fixing the process, not just the numbers
+The most useful outcome of an audit is a system that will not produce the same findings again: a documented VAT treatment matrix for recurring transactions, a monthly reconciliation routine, and a review step before each return is submitted.
+Staying Audit-Ready Between Audits
+Reconcile the VAT return to the trial balance every quarter, and keep the working paper
+Store tax invoices so that any transaction can be located within minutes, not days
+Maintain a written record of the VAT treatment applied to unusual or high-value transactions, and why
+Review supplier invoices for compliance at the point of receipt rather than years later
+Keep the FTA portal contact details current so notices are not missed
+Assign clear internal ownership of VAT — audits go badly when nobody can answer questions about the filings
+Closing Thoughts
+An FTA audit is difficult in proportion to how much reconstruction it requires. A business that reconciles regularly, holds compliant invoices, and can explain its VAT positions by reference to evidence will find the process procedural. A business assembling three years of records under time pressure will not.
+If your records have never been independently reviewed, the practical next step is a scoped health check covering the open periods. It identifies what needs correcting while voluntary disclosure remains available, which is almost always the least expensive point at which to deal with an error.
+
+This document is general information about UAE VAT procedure and is not tax or legal advice. Thresholds, penalty amounts, deadlines and retention periods are set by legislation that is amended periodically — verify the current position with the Federal Tax Authority or a registered tax agent before acting on any point above.
+Frequently Asked Questions
+1. What does FTA VAT audit assistance actually involve?
+It covers reviewing filed returns against the underlying accounting records, testing invoice and documentation compliance, identifying and correcting errors through the appropriate mechanism, preparing the file the FTA has requested, and drafting technical responses during the audit itself.
+2. How much notice does the FTA give before a tax audit?
+Notification is normally given in writing in advance of the audit, specifying when and where it will take place. In limited circumstances the Authority may proceed without prior notice, for instance where it suspects that evidence might otherwise be concealed.
+3. How far back can an FTA audit go?
+Statutory time limits apply, and they extend in defined circumstances — including where a voluntary disclosure is submitted near the end of the period, and substantially further where tax evasion or failure to register is alleged. Confirm the limits applicable to your case under the current Tax Procedures Law.
+4. What is Form 211 used for?
+Form 211 is the VAT voluntary disclosure form. It is used to notify the FTA of an error or omission in a previously submitted VAT return, tax assessment or refund application, and to submit the corrected figures with an explanation.
+5. When must a voluntary disclosure be filed?
+Where the error exceeds the prescribed threshold in tax due — AED 10,000 — a disclosure must be filed within the period set out in the legislation, counted from the date the error was discovered. Smaller errors may in defined circumstances be corrected in the next return instead. The rules have been amended, so check the current requirements.
+6. Can VAT penalties be reduced or cancelled?
+A formal application can be made to the FTA for a waiver or an instalment arrangement. It is considered by a committee against set criteria and requires a documented, credible explanation for the non-compliance together with evidence of corrective action. Approval is discretionary.
+7. What happens if we disagree with the FTA's assessment?
+There are formal routes to challenge an assessment, beginning with a request for reconsideration and continuing through objection and appeal. Each stage carries a strict deadline, and missing one generally forecloses the challenge.
+8. Do records need to be in Arabic?
+The FTA can require records and documents to be provided in Arabic, and there is a specific penalty for failing to do so on request. Businesses operating entirely in English should plan for how they would meet such a request.
+9. Is it worth engaging help if we have not been audited?
+Usually yes. A review conducted before an audit notice arrives allows errors to be corrected through voluntary disclosure, which typically carries lower consequences than the same error being identified by an auditor.

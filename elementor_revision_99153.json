@@ -1,0 +1,3579 @@
+{
+  "success": true,
+  "data": {
+    "responses": {
+      "get_revision": {
+        "success": true,
+        "code": 200,
+        "data": {
+          "settings": {
+            "template": "default",
+            "post_title": "Main menu",
+            "post_status": "publish",
+            "hide_title": "",
+            "eael_ext_reading_progress": "no",
+            "eael_ext_reading_progress_has_global": false,
+            "eael_ext_reading_progress_global": "no",
+            "eael_ext_reading_progress_global_display_condition": "all",
+            "eael_ext_reading_progress_position": "top",
+            "eael_ext_reading_progress_height": {
+              "unit": "px",
+              "size": 5,
+              "sizes": []
+            },
+            "eael_ext_reading_progress_bg_color": "",
+            "eael_ext_reading_progress_fill_color": "#1fd18e",
+            "eael_ext_reading_progress_animation_speed": {
+              "unit": "px",
+              "size": 50,
+              "sizes": []
+            },
+            "eael_ext_table_of_content": "no",
+            "eael_ext_toc_has_global": false,
+            "eael_ext_toc_global": "no",
+            "eael_ext_toc_global_display_condition": "all",
+            "eael_ext_toc_title": "Table of Contents",
+            "eael_ext_toc_title_tag": "h2",
+            "eael_ext_toc_supported_heading_tag": [
+              "h2",
+              "h3",
+              "h4",
+              "h5",
+              "h6"
+            ],
+            "eael_ext_toc_content_selector": "",
+            "eael_toc_exclude_selector": "",
+            "eael_ext_toc_collapse_sub_heading": "yes",
+            "eael_ext_toc_use_title_in_url": "no",
+            "eael_ext_toc_word_wrap": "no",
+            "eael_ext_toc_auto_collapse": "yes",
+            "eael_ext_toc_auto_highlight": "no",
+            "eael_ext_toc_auto_highlight_single_item_only": "yes",
+            "eael_ext_toc_hide_in_mobile": "no",
+            "eael_ext_toc_max_height": {
+              "unit": "px",
+              "size": 50,
+              "sizes": []
+            },
+            "eael_ext_toc_sticky_scroll": {
+              "unit": "px",
+              "size": 200,
+              "sizes": []
+            },
+            "eael_ext_toc_sticky_offset": {
+              "unit": "px",
+              "size": 200,
+              "sizes": []
+            },
+            "eael_ext_toc_main_page_offset": {
+              "unit": "px",
+              "size": 120,
+              "sizes": []
+            },
+            "eael_ext_toc_sticky_z_index": {
+              "unit": "px",
+              "size": 9999,
+              "sizes": []
+            },
+            "eael_ext_toc_width": {
+              "unit": "px",
+              "size": 300,
+              "sizes": []
+            },
+            "eael_ext_toc_position": "left",
+            "eael_ext_toc_position_mobile": "",
+            "eael_ext_toc_position_mobile_top_bottom": "top",
+            "eael_ext_toc_position_mobile_top_offset": {
+              "unit": "px",
+              "size": 50,
+              "sizes": []
+            },
+            "eael_ext_toc_position_mobile_bottom_offset": {
+              "unit": "px",
+              "size": 50,
+              "sizes": []
+            },
+            "eael_ext_toc_list_icon": "bullet",
+            "eael_ext_toc_box_list_bullet_size": {
+              "unit": "px",
+              "size": 8,
+              "sizes": []
+            },
+            "eael_ext_toc_box_list_top_position": {
+              "unit": "px",
+              "size": -2,
+              "sizes": []
+            },
+            "eael_ext_toc_border_border": "",
+            "eael_ext_toc_border_width": {
+              "unit": "px",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "eael_ext_toc_border_color": "",
+            "eael_ext_toc_table_box_shadow_box_shadow_type": "",
+            "eael_ext_toc_table_box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 10,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            "eael_ext_toc_table_box_shadow_box_shadow_position": " ",
+            "eael_ext_toc_box_border_radius": {
+              "unit": "px",
+              "size": 5,
+              "sizes": []
+            },
+            "eael_ext_table_of_content_header_bg": "#ff7d50",
+            "eael_ext_table_of_content_header_text_color": "#ffffff",
+            "eael_ext_table_of_content_header_typography_typography": "",
+            "eael_ext_table_of_content_header_typography_font_family": "",
+            "eael_ext_table_of_content_header_typography_font_size": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_header_typography_font_weight": "",
+            "eael_ext_table_of_content_header_typography_text_transform": "",
+            "eael_ext_table_of_content_header_typography_font_style": "",
+            "eael_ext_table_of_content_header_typography_text_decoration": "",
+            "eael_ext_table_of_content_header_typography_line_height": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_header_typography_letter_spacing": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_header_typography_word_spacing": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_toc_header_padding": {
+              "unit": "px",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "eael_ext_table_of_content_header_icon": {
+              "value": "fas fa-list",
+              "library": "fa-solid"
+            },
+            "eael_ext_toc_close_button_text_style": "top_to_bottom",
+            "eael_ext_table_of_content_close_button_icon_size": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_close_button_size": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_close_button_line_height": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_close_button_bg": "#ffffff",
+            "eael_ext_table_of_content_close_button_text_color": "#ff7d50",
+            "eael_ext_table_of_content_close_button_border_radius": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_close_button_box_shadow_box_shadow_type": "",
+            "eael_ext_table_of_content_close_button_box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 10,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            "eael_ext_table_of_content_close_button_box_shadow_box_shadow_position": " ",
+            "eael_ext_table_of_content_body_bg": "#fff6f3",
+            "eael_ext_toc_body_padding": {
+              "unit": "px",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "eael_ext_table_of_content_list_style": "none",
+            "eael_ext_toc_indicator_color": "#ff7d50",
+            "eael_ext_toc_indicator_size": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            },
+            "eael_ext_toc_indicator_position": {
+              "unit": "px",
+              "size": 0,
+              "sizes": []
+            },
+            "eael_ext_table_of_content_list_typography_normal_typography": "",
+            "eael_ext_table_of_content_list_typography_normal_font_family": "",
+            "eael_ext_table_of_content_list_typography_normal_font_size": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_list_typography_normal_font_weight": "",
+            "eael_ext_table_of_content_list_typography_normal_text_transform": "",
+            "eael_ext_table_of_content_list_typography_normal_font_style": "",
+            "eael_ext_table_of_content_list_typography_normal_text_decoration": "",
+            "eael_ext_table_of_content_list_typography_normal_line_height": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_list_typography_normal_letter_spacing": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_list_typography_normal_word_spacing": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "eael_ext_table_of_content_list_text_color": "#707070",
+            "eael_ext_table_of_list_hover_color": "#ff7d50",
+            "eael_ext_table_of_content_list_text_color_active": "#ff7d50",
+            "eael_ext_toc_top_level_space": {
+              "unit": "px",
+              "size": 8,
+              "sizes": []
+            },
+            "eael_ext_toc_subitem_level_space": {
+              "unit": "px",
+              "size": 1,
+              "sizes": []
+            },
+            "eael_ext_table_of_content_list_separator_style": "dashed",
+            "eael_ext_table_of_content_list_separator_color": "#c6c4cf",
+            "eael_ext_scroll_to_top": "no",
+            "eael_ext_scroll_to_top_has_global": false,
+            "eael_ext_scroll_to_top_global": "no",
+            "eael_ext_scroll_to_top_global_display_condition": "all",
+            "eael_ext_scroll_to_top_position_text": "bottom-right",
+            "eael_ext_scroll_to_top_position_bottom": {
+              "unit": "px",
+              "size": 15,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_position_left": {
+              "unit": "px",
+              "size": 15,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_position_right": {
+              "unit": "px",
+              "size": 15,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_button_width": {
+              "unit": "px",
+              "size": 50,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_button_height": {
+              "unit": "px",
+              "size": 50,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_z_index": {
+              "unit": "px",
+              "size": 9999,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_button_opacity": {
+              "unit": "px",
+              "size": 0.7,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_button_icon_image": {
+              "value": "fas fa-chevron-up",
+              "library": "fa-solid"
+            },
+            "eael_ext_scroll_to_top_button_icon_size": {
+              "unit": "px",
+              "size": 16,
+              "sizes": []
+            },
+            "eael_ext_scroll_to_top_button_icon_color": "#ffffff",
+            "eael_ext_scroll_to_top_button_bg_color": "#000000",
+            "eael_ext_scroll_to_top_button_border_radius": {
+              "unit": "px",
+              "size": 5,
+              "sizes": []
+            },
+            "eael_custom_js": "",
+            "margin": {
+              "unit": "px",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "background_background": "",
+            "background_color": "",
+            "background_color_stop": {
+              "unit": "%",
+              "size": 0,
+              "sizes": []
+            },
+            "background_color_b": "#f2295b",
+            "background_color_b_stop": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "background_gradient_type": "linear",
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 180,
+              "sizes": []
+            },
+            "background_gradient_position": "center center",
+            "background_image": {
+              "url": "",
+              "id": "",
+              "size": ""
+            },
+            "background_position": "",
+            "background_xpos": {
+              "unit": "px",
+              "size": 0,
+              "sizes": []
+            },
+            "background_ypos": {
+              "unit": "px",
+              "size": 0,
+              "sizes": []
+            },
+            "background_attachment": "",
+            "background_repeat": "",
+            "background_size": "",
+            "background_bg_width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "background_video_link": "",
+            "background_video_start": "",
+            "background_video_end": "",
+            "background_play_once": "",
+            "background_play_on_mobile": "",
+            "background_privacy_mode": "",
+            "background_video_fallback": {
+              "url": "",
+              "id": "",
+              "size": ""
+            },
+            "background_slideshow_gallery": [],
+            "background_slideshow_loop": "yes",
+            "background_slideshow_slide_duration": 5000,
+            "background_slideshow_slide_transition": "fade",
+            "background_slideshow_transition_duration": 500,
+            "background_slideshow_background_size": "",
+            "background_slideshow_background_position": "",
+            "background_slideshow_lazyload": "",
+            "background_slideshow_ken_burns": "",
+            "background_slideshow_ken_burns_zoom_direction": "in",
+            "custom_css": "",
+            "scroll_snap": "",
+            "scroll_snap_position": "",
+            "scroll_snap_padding": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "force_stop": ""
+          },
+          "elements": [
+            {
+              "id": "11f7370",
+              "elType": "section",
+              "settings": {
+                "structure": "30",
+                "background_background": "classic",
+                "background_image": {
+                  "url": "https://emp.weboi.in/wp-content/uploads/2019/12/bg-section-03.png",
+                  "id": 2091,
+                  "alt": "",
+                  "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color_b": "#C7B6BA47",
+                "background_overlay_opacity": {
+                  "unit": "px",
+                  "size": 0.86,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "background_color": "",
+                  "background_overlay_color": ""
+                },
+                "gap_columns_custom": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "hide_desktop": "hidden-desktop",
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [
+                {
+                  "id": "27051da4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 29.987,
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a47a905",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Audit & Assurance Services",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "43420956",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "External Audit",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "/services/audit-assurance",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Internal Audit",
+                            "link": {
+                              "url": "/services/internal-audit-system-review",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "25caa4d"
+                          },
+                          {
+                            "_id": "4ffb4a1",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "RERA Escrow",
+                            "link": {
+                              "url": "/services/rera-audit-consultancy/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "c2252b6",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Molak Services",
+                            "link": {
+                              "url": "/services/mollak-services/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "9ecc0df",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Due diligence Audit",
+                            "link": {
+                              "url": "/services/due-diligence",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "4758eb4",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Liquidation Audit",
+                            "link": {
+                              "url": "/services/liquidation-audit",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "IFRS Advisory Services",
+                            "link": {
+                              "url": "/services/ifrs-advisory-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d1a9a4f"
+                          },
+                          {
+                            "text": "Forensic Audit ",
+                            "link": {
+                              "url": "/services/forensic-audit-accounting",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "be7ce10"
+                          },
+                          {
+                            "_id": "7f7187b",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Agreed upon Procedures",
+                            "link": {
+                              "url": "/services/agreed-upon-procedures",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "f45c78f",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "DAFZA Audit",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "https://nufca.com/services/dafza-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "DSO Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/dso-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "cf56e8c"
+                          },
+                          {
+                            "text": "DIFC Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/difc-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "2c2b9ad"
+                          },
+                          {
+                            "text": "DMCC Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/dmcc-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "0e5b944"
+                          },
+                          {
+                            "text": "JAFZA Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/jafza-approved-auditors",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "a9cc203"
+                          },
+                          {
+                            "text": "SAIF Zone Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/saif-zone-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "b20f99c"
+                          }
+                        ],
+                        "_element_vertical_align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "7b66468",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Business Advisory Services",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "2cd1247",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "Business Valuation",
+                            "link": {
+                              "url": "/services/business-valuation-due-diligence",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "25caa4d"
+                          },
+                          {
+                            "text": "Business Consultancy",
+                            "link": {
+                              "url": "/services/business-consultancy-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d1a9a4f"
+                          },
+                          {
+                            "_id": "4ffb4a1",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Feasibility Studies",
+                            "link": {
+                              "url": "/services/feasibility-study",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Mergers & Acquisitions",
+                            "link": {
+                              "url": "/services/mergers-acquisitions-advisory-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "be7ce10"
+                          },
+                          {
+                            "text": "CFO Advisory Services",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "/services/cfo-advisory-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "c2252b6",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Corporate finance",
+                            "link": {
+                              "url": "/services/corporate-finance",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "48fd0d3c",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 36.345,
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "css_classes": "col-line-mega"
+                  },
+                  "elements": [
+                    {
+                      "id": "22b25e08",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Accounting & Bookkeeping",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "600",
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "1014293",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "Accounting & Supervision",
+                            "link": {
+                              "url": "/services/accounting-supervision/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            }
+                          },
+                          {
+                            "text": "Accounting Backlog Compilation",
+                            "link": {
+                              "url": "/services/accounting-backlog-compilation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "cf56e8c"
+                          },
+                          {
+                            "text": "Fixed assets control services",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "2c2b9ad",
+                            "link": {
+                              "url": "/services/fixed-assets-control-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Inventory Control services",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "b20f99c",
+                            "link": {
+                              "url": "/services/inventory-control-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Standard Operating Procedures(SOP)",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "0e5b944",
+                            "link": {
+                              "url": "/services/standard-operating-procedures-sop",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Outsourcing payroll services",
+                            "link": {
+                              "url": "/services/outsourcing-payroll",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "8eaa2b7"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "b5df95f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "UAE Company Setup Services",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "4ee7961",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "Company Set Up Consulting",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "https://nufca.com/services/company-set-up-consulting",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Mainland Company Formation",
+                            "link": {
+                              "url": "/services/mainland-company-formation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "cf56e8c"
+                          },
+                          {
+                            "text": "Free zone Company Formation",
+                            "link": {
+                              "url": "/services/freezone-company-formation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "2c2b9ad"
+                          },
+                          {
+                            "text": "Offshore Company Formation",
+                            "link": {
+                              "url": "https://nufca.com/services/offshore-company-formation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "0e5b944"
+                          },
+                          {
+                            "text": "Company Liquidation",
+                            "link": {
+                              "url": "https://nufca.com/services/company-incorporation-liquidation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "a9cc203"
+                          },
+                          {
+                            "text": "Assistance in opening bank accounts",
+                            "link": {
+                              "url": "/services/assistance-in-opening-bank-accounts",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "b20f99c"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "2d73d8d6",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "10",
+                      "bottom": "33",
+                      "left": "33",
+                      "isLinked": false
+                    },
+                    "css_classes": "col-line-mega"
+                  },
+                  "elements": [
+                    {
+                      "id": "2ce67e5c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Taxation",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "600",
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "50694cfe",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "VAT Consultancy Services",
+                            "link": {
+                              "url": "https://nufca.com/vat-consultancy-in-uae/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            }
+                          },
+                          {
+                            "text": "FTA Approved Tax agent",
+                            "link": {
+                              "url": "/services/tax-agent-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "53244c0"
+                          },
+                          {
+                            "text": "FTA VAT audit assistance",
+                            "link": {
+                              "url": "/services/fta-vat-audit-assistance",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "388c124"
+                          },
+                          {
+                            "_id": "817af0c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "VAT Health Check",
+                            "link": {
+                              "url": "/services/vat-health-check",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Excise Tax",
+                            "link": {
+                              "url": "/services/excise-tax",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "ac49e20"
+                          },
+                          {
+                            "text": "Corporate Tax in UAE",
+                            "link": {
+                              "url": "/corporate-tax-in-uae/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d119127"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "704802d",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "International Taxation",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "2fccc79",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "_id": "c2c655f",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Economic Substance regulations (ESR) Advisory",
+                            "link": {
+                              "url": "/services/economic-substance-regulations-in-the-uae",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "319257b",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Ultimate beneficial owner (UBO) Advisory",
+                            "link": {
+                              "url": "https://nufca.com/services/ultimate-beneficial-owner-ubo-advisory",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "5da9ed9",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "AML /CFT Compliance services",
+                            "link": {
+                              "url": "/services/aml-cft-compliance-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "3927ed9",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Country by country reporting (CBCR)",
+                            "link": {
+                              "url": "https://nufca.com/services/country-by-country-reporting-cbcr",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Tax residency certificate (TRC)",
+                            "_id": "4eebb88",
+                            "link": {
+                              "url": "https://nufca.com/services/tax-residency-certificate",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ],
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "17",
+                          "isLinked": false
+                        },
+                        "_transform_translate_popover": "transform"
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "d15c974",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Digital Transformation Solutions",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "0f6b63d",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "ERP Solutions",
+                            "link": {
+                              "url": "/services/information-technology/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d119127"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "90505c6",
+              "elType": "section",
+              "settings": {
+                "layout": "full_width",
+                "column_position": "top",
+                "structure": "20",
+                "hide_tablet": "hidden-tablet"
+              },
+              "elements": [
+                {
+                  "id": "c40ddac",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://nufca.com/wp-content/uploads/2023/07/bg-section-03.png",
+                      "id": 9510,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "8ada368",
+                      "elType": "section",
+                      "settings": {
+                        "structure": "20",
+                        "margin": {
+                          "unit": "px",
+                          "top": "",
+                          "right": 0,
+                          "bottom": "",
+                          "left": 0,
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "1d7ac2d",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "_inline_size": null
+                          },
+                          "elements": [
+                            {
+                              "id": "92b3eca",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Audit & Assurance Services",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "51939b7",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "External Audit",
+                                    "_id": "6651a5c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "link": {
+                                      "url": "/services/audit-assurance",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "Internal Audit",
+                                    "link": {
+                                      "url": "/services/internal-audit-system-review",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "25caa4d"
+                                  },
+                                  {
+                                    "_id": "4ffb4a1",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "RERA Escrow",
+                                    "link": {
+                                      "url": "/services/rera-audit-consultancy/",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "c2252b6",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Molak Services",
+                                    "link": {
+                                      "url": "/services/mollak-services/",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "9ecc0df",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Due diligence Audit",
+                                    "link": {
+                                      "url": "/services/due-diligence",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "4758eb4",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Liquidation Audit",
+                                    "link": {
+                                      "url": "/services/liquidation-audit",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "IFRS Advisory Services",
+                                    "link": {
+                                      "url": "/services/ifrs-advisory-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "d1a9a4f"
+                                  },
+                                  {
+                                    "text": "Forensic Audit ",
+                                    "link": {
+                                      "url": "/services/forensic-audit-accounting",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "be7ce10"
+                                  },
+                                  {
+                                    "_id": "7f7187b",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Agreed upon Procedures",
+                                    "link": {
+                                      "url": "/services/agreed-upon-procedures",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  }
+                                ]
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            },
+                            {
+                              "id": "953fde5",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Business Advisory Services",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "12",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": false
+                                },
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "e1e96b2",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "Business Valuation",
+                                    "link": {
+                                      "url": "/services/business-valuation-due-diligence",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "25caa4d"
+                                  },
+                                  {
+                                    "text": "Business Consultancy",
+                                    "link": {
+                                      "url": "/services/business-consultancy-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "d1a9a4f"
+                                  },
+                                  {
+                                    "_id": "4ffb4a1",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Feasibility Studies",
+                                    "link": {
+                                      "url": "/services/feasibility-study",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  }
+                                ]
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            }
+                          ],
+                          "isInner": true
+                        },
+                        {
+                          "id": "27f080a",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "_inline_size": null
+                          },
+                          "elements": [
+                            {
+                              "id": "2aba91d",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Freezone Audit",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "5519898",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "DAFZA Audit",
+                                    "_id": "6651a5c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "link": {
+                                      "url": "https://nufca.com/services/dafza-approved-auditors",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "DSO Audit",
+                                    "link": {
+                                      "url": "https://nufca.com/services/dso-approved-auditors-2",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "cf56e8c"
+                                  },
+                                  {
+                                    "text": "DIFC Audit",
+                                    "link": {
+                                      "url": "https://nufca.com/services/difc-approved-auditors-2",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "2c2b9ad"
+                                  },
+                                  {
+                                    "text": "DMCC Audit",
+                                    "link": {
+                                      "url": "https://nufca.com/services/dmcc-approved-auditors-2",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "0e5b944"
+                                  },
+                                  {
+                                    "text": "JAFZA Audit",
+                                    "link": {
+                                      "url": "https://nufca.com/services/jafza-approved-auditors",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "a9cc203"
+                                  },
+                                  {
+                                    "text": "SAIF Zone Audit",
+                                    "link": {
+                                      "url": "https://nufca.com/services/saif-zone-approved-auditors-2",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "b20f99c"
+                                  },
+                                  {
+                                    "text": "ADGM Audit & Assurance ",
+                                    "link": {
+                                      "url": "https://nufca.com/adgm-audit",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "0b77914"
+                                  }
+                                ],
+                                "_element_vertical_align": "center"
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            },
+                            {
+                              "id": "8239723",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Digital Transformation Solutions",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "12",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": false
+                                },
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "209fde0",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "ERP Solutions",
+                                    "link": {
+                                      "url": "/services/information-technology/",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "d119127"
+                                  }
+                                ]
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            },
+                            {
+                              "id": "9db3e9e",
+                              "elType": "widget",
+                              "settings": {
+                                "width": {
+                                  "unit": "%",
+                                  "size": 77,
+                                  "sizes": []
+                                },
+                                "align": "left",
+                                "text": "Divider",
+                                "color": "#00000052",
+                                "gap": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "13",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": false
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "divider"
+                            },
+                            {
+                              "id": "d5959aa",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "Mergers & Acquisitions",
+                                    "link": {
+                                      "url": "/services/mergers-acquisitions-advisory-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "be7ce10"
+                                  },
+                                  {
+                                    "text": "CFO Advisory Services",
+                                    "_id": "6651a5c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "link": {
+                                      "url": "/services/cfo-advisory-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "c2252b6",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Corporate finance",
+                                    "link": {
+                                      "url": "/services/corporate-finance",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  }
+                                ],
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "28",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": false
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "f70c0ef",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://nufca.com/wp-content/uploads/2020/06/bg-section-01.png",
+                      "id": 4991,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a47b8c7",
+                      "elType": "section",
+                      "settings": {
+                        "structure": "20",
+                        "margin": {
+                          "unit": "px",
+                          "top": "",
+                          "right": 0,
+                          "bottom": "",
+                          "left": 0,
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "a47f9ab",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "_inline_size": null
+                          },
+                          "elements": [
+                            {
+                              "id": "98a0e04",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Accounting & Bookkeeping",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "title_typography_font_weight": "600",
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "31e3d5d",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "Accounting & Supervision",
+                                    "link": {
+                                      "url": "/services/accounting-supervision/",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "7ba2eda"
+                                  },
+                                  {
+                                    "text": "Bookkeeping Services",
+                                    "link": {
+                                      "url": "https://nufca.com/services/bookkeeping-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "_id": "6651a5c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    }
+                                  },
+                                  {
+                                    "text": "Accounting Backlog Compilation",
+                                    "link": {
+                                      "url": "/services/accounting-backlog-compilation",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "cf56e8c"
+                                  },
+                                  {
+                                    "text": "Fixed assets control services",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "2c2b9ad",
+                                    "link": {
+                                      "url": "/services/fixed-assets-control-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "Inventory Control services",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "b20f99c",
+                                    "link": {
+                                      "url": "/services/inventory-control-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "Standard Operating Procedures(SOP)",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "0e5b944",
+                                    "link": {
+                                      "url": "/services/standard-operating-procedures-sop",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "Outsourcing payroll services",
+                                    "link": {
+                                      "url": "/services/outsourcing-payroll",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "8eaa2b7"
+                                  }
+                                ]
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            },
+                            {
+                              "id": "af85923",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "UAE Company Setup Services",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "6",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": false
+                                },
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "050b54e",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "Company Set Up Consulting",
+                                    "_id": "6651a5c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "link": {
+                                      "url": "https://nufca.com/services/company-set-up-consulting",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "Mainland Company Formation",
+                                    "link": {
+                                      "url": "/services/mainland-company-formation",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "cf56e8c"
+                                  },
+                                  {
+                                    "text": "Free zone Company Formation",
+                                    "link": {
+                                      "url": "/services/freezone-company-formation",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "2c2b9ad"
+                                  },
+                                  {
+                                    "text": "Offshore Company Formation",
+                                    "link": {
+                                      "url": "https://nufca.com/services/offshore-company-formation",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "0e5b944"
+                                  },
+                                  {
+                                    "text": "Company Liquidation",
+                                    "link": {
+                                      "url": "https://nufca.com/services/company-incorporation-liquidation",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "a9cc203"
+                                  },
+                                  {
+                                    "text": "Assistance in opening bank accounts",
+                                    "link": {
+                                      "url": "/services/assistance-in-opening-bank-accounts",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "b20f99c"
+                                  }
+                                ]
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            }
+                          ],
+                          "isInner": true
+                        },
+                        {
+                          "id": "46ccdc8",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "_inline_size": null,
+                            "margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "5",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "8e99bea",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Taxation",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "title_typography_font_weight": "600",
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "8962b13",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "text": "VAT Consultancy Services",
+                                    "link": {
+                                      "url": "https://nufca.com/vat-consultancy-in-uae/",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "_id": "6651a5c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    }
+                                  },
+                                  {
+                                    "text": "FTA Approved Tax agent",
+                                    "link": {
+                                      "url": "/services/tax-agent-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "53244c0"
+                                  },
+                                  {
+                                    "text": "FTA VAT audit assistance",
+                                    "link": {
+                                      "url": "/services/fta-vat-audit-assistance",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "388c124"
+                                  },
+                                  {
+                                    "_id": "817af0c",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "VAT Health Check",
+                                    "link": {
+                                      "url": "/services/vat-health-check",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "text": "Excise Tax",
+                                    "link": {
+                                      "url": "/services/excise-tax",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "ac49e20"
+                                  },
+                                  {
+                                    "text": "Corporate Tax in UAE",
+                                    "link": {
+                                      "url": "/corporate-tax-in-uae/",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    },
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "_id": "d119127"
+                                  }
+                                ]
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            },
+                            {
+                              "id": "f5ef1d7",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "International Taxation",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                },
+                                "title_space_bottom": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                },
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "12",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": false
+                                },
+                                "__globals__": {
+                                  "title_color": "globals/colors?id=accent"
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "ct_heading"
+                            },
+                            {
+                              "id": "c35cb83",
+                              "elType": "widget",
+                              "settings": {
+                                "menu_item": [
+                                  {
+                                    "_id": "c2c655f",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Economic Substance regulations (ESR)<br> Advisory",
+                                    "link": {
+                                      "url": "/services/economic-substance-regulations-in-the-uae",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "319257b",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Ultimate beneficial owner (UBO) Advisory",
+                                    "link": {
+                                      "url": "https://nufca.com/services/ultimate-beneficial-owner-ubo-advisory",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "5da9ed9",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "AML /CFT Compliance services",
+                                    "link": {
+                                      "url": "/services/aml-cft-compliance-services",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "_id": "3927ed9",
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Country by country reporting (CBCR)",
+                                    "link": {
+                                      "url": "https://nufca.com/services/country-by-country-reporting-cbcr",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  },
+                                  {
+                                    "ct_icon": {
+                                      "value": "flaticonv5 flaticonv5-double-chevron",
+                                      "library": "flaticonv5"
+                                    },
+                                    "text": "Tax residency certificate (TRC)",
+                                    "_id": "4eebb88",
+                                    "link": {
+                                      "url": "https://nufca.com/services/tax-residency-certificate",
+                                      "is_external": "",
+                                      "nofollow": "",
+                                      "custom_attributes": ""
+                                    }
+                                  }
+                                ],
+                                "_transform_translate_popover": "transform"
+                              },
+                              "elements": [],
+                              "widgetType": "ct_menu_item"
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "776a391",
+              "elType": "section",
+              "settings": {
+                "layout": "full_width",
+                "structure": "20",
+                "hide_mobile": "hidden-mobile",
+                "hide_desktop": "hidden-desktop"
+              },
+              "elements": [
+                {
+                  "id": "609df98",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://nufca.com/wp-content/uploads/2023/07/bg-section-03.png",
+                      "id": 9510,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "30c99dd",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Audit & Assurance Services",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "198ecd2",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "External Audit",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "/services/audit-assurance",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Internal Audit",
+                            "link": {
+                              "url": "/services/internal-audit-system-review",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "25caa4d"
+                          },
+                          {
+                            "_id": "4ffb4a1",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "RERA Escrow",
+                            "link": {
+                              "url": "/services/rera-audit-consultancy/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "c2252b6",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Molak Services",
+                            "link": {
+                              "url": "/services/mollak-services/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "9ecc0df",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Due diligence Audit",
+                            "link": {
+                              "url": "/services/due-diligence",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "4758eb4",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Liquidation Audit",
+                            "link": {
+                              "url": "/services/liquidation-audit",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "IFRS Advisory Services",
+                            "link": {
+                              "url": "/services/ifrs-advisory-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d1a9a4f"
+                          },
+                          {
+                            "text": "Forensic Audit ",
+                            "link": {
+                              "url": "/services/forensic-audit-accounting",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "be7ce10"
+                          },
+                          {
+                            "_id": "7f7187b",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Agreed upon Procedures",
+                            "link": {
+                              "url": "/services/agreed-upon-procedures",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "9333da0",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Freezone Audit",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "21b6a4f",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "DAFZA Audit",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "https://nufca.com/services/dafza-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "DSO Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/dso-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "cf56e8c"
+                          },
+                          {
+                            "text": "DIFC Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/difc-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "2c2b9ad"
+                          },
+                          {
+                            "text": "DMCC Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/dmcc-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "0e5b944"
+                          },
+                          {
+                            "text": "JAFZA Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/jafza-approved-auditors",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "a9cc203"
+                          },
+                          {
+                            "text": "SAIF Zone Audit",
+                            "link": {
+                              "url": "https://nufca.com/services/saif-zone-approved-auditors-2",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "b20f99c"
+                          }
+                        ],
+                        "_element_vertical_align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "71e6edf",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Business Advisory Services",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "b5edd49",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "Business Valuation",
+                            "link": {
+                              "url": "/services/business-valuation-due-diligence",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "25caa4d"
+                          },
+                          {
+                            "text": "Business Consultancy",
+                            "link": {
+                              "url": "/services/business-consultancy-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d1a9a4f"
+                          },
+                          {
+                            "_id": "4ffb4a1",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Feasibility Studies",
+                            "link": {
+                              "url": "/services/feasibility-study",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Mergers & Acquisitions",
+                            "link": {
+                              "url": "/services/mergers-acquisitions-advisory-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "be7ce10"
+                          },
+                          {
+                            "text": "CFO Advisory Services",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "/services/cfo-advisory-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "c2252b6",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Corporate finance",
+                            "link": {
+                              "url": "/services/corporate-finance",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "ecfa19c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Digital Transformation Solutions",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "a1e46f4",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "ERP Solutions",
+                            "link": {
+                              "url": "/services/information-technology/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d119127"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "9ac3c40",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://nufca.com/wp-content/uploads/2020/06/bg-section-01.png",
+                      "id": 4991,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "83307c4",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Accounting & Bookkeeping",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "600",
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "5a9b65f",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "Accounting & Supervision",
+                            "link": {
+                              "url": "/services/accounting-supervision/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            }
+                          },
+                          {
+                            "text": "Bookkeeping Services",
+                            "link": {
+                              "url": "https://nufca.com/services/bookkeeping-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "e71d7e2"
+                          },
+                          {
+                            "text": "Accounting Backlog Compilation",
+                            "link": {
+                              "url": "/services/accounting-backlog-compilation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "cf56e8c"
+                          },
+                          {
+                            "text": "Fixed assets control services",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "2c2b9ad",
+                            "link": {
+                              "url": "/services/fixed-assets-control-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Inventory Control services",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "b20f99c",
+                            "link": {
+                              "url": "/services/inventory-control-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Standard Operating Procedures(SOP)",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "0e5b944",
+                            "link": {
+                              "url": "/services/standard-operating-procedures-sop",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Outsourcing payroll services",
+                            "link": {
+                              "url": "/services/outsourcing-payroll",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "8eaa2b7"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "9e96e48",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "UAE Company Setup Services",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "d9e5733",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "Company Set Up Consulting",
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "link": {
+                              "url": "https://nufca.com/services/company-set-up-consulting",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Mainland Company Formation",
+                            "link": {
+                              "url": "/services/mainland-company-formation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "cf56e8c"
+                          },
+                          {
+                            "text": "Free zone Company Formation",
+                            "link": {
+                              "url": "/services/freezone-company-formation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "2c2b9ad"
+                          },
+                          {
+                            "text": "Offshore Company Formation",
+                            "link": {
+                              "url": "https://nufca.com/services/offshore-company-formation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "0e5b944"
+                          },
+                          {
+                            "text": "Company Liquidation",
+                            "link": {
+                              "url": "https://nufca.com/services/company-incorporation-liquidation",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "a9cc203"
+                          },
+                          {
+                            "text": "Assistance in opening bank accounts",
+                            "link": {
+                              "url": "/services/assistance-in-opening-bank-accounts",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "b20f99c"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "9349b35",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Taxation",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "600",
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        },
+                        "_margin_tablet": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "c11937b",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "text": "VAT Consultancy Services",
+                            "link": {
+                              "url": "https://nufca.com/vat-consultancy-in-uae/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "_id": "6651a5c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            }
+                          },
+                          {
+                            "text": "FTA Approved Tax agent",
+                            "link": {
+                              "url": "/services/tax-agent-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "53244c0"
+                          },
+                          {
+                            "text": "FTA VAT audit assistance",
+                            "link": {
+                              "url": "/services/fta-vat-audit-assistance",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "388c124"
+                          },
+                          {
+                            "_id": "817af0c",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "VAT Health Check",
+                            "link": {
+                              "url": "/services/vat-health-check",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "text": "Excise Tax",
+                            "link": {
+                              "url": "/services/excise-tax",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "ac49e20"
+                          },
+                          {
+                            "text": "Corporate Tax in UAE",
+                            "link": {
+                              "url": "/corporate-tax-in-uae/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "_id": "d119127"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    },
+                    {
+                      "id": "1faa362",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "International Taxation",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "title_space_bottom": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=accent"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ct_heading"
+                    },
+                    {
+                      "id": "80f7ef3",
+                      "elType": "widget",
+                      "settings": {
+                        "menu_item": [
+                          {
+                            "_id": "c2c655f",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Economic Substance regulations (ESR)<br> Advisory",
+                            "link": {
+                              "url": "/services/economic-substance-regulations-in-the-uae",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "319257b",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Ultimate beneficial owner (UBO) Advisory",
+                            "link": {
+                              "url": "https://nufca.com/services/ultimate-beneficial-owner-ubo-advisory",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "5da9ed9",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "AML /CFT Compliance services",
+                            "link": {
+                              "url": "/services/aml-cft-compliance-services",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "3927ed9",
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Country by country reporting (CBCR)",
+                            "link": {
+                              "url": "https://nufca.com/services/country-by-country-reporting-cbcr",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "ct_icon": {
+                              "value": "flaticonv5 flaticonv5-double-chevron",
+                              "library": "flaticonv5"
+                            },
+                            "text": "Tax residency certificate (TRC)",
+                            "_id": "4eebb88",
+                            "link": {
+                              "url": "https://nufca.com/services/tax-residency-certificate",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ],
+                        "_transform_translate_popover": "transform"
+                      },
+                      "elements": [],
+                      "widgetType": "ct_menu_item"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}

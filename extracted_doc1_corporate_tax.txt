@@ -1,0 +1,292 @@
+Corporate Tax Consultants Dubai
+URL: /tax/corporate-tax-uae/
+Primary keyword: Corporate Tax Consultants Dubai
+Secondary keywords: corporate tax UAE, corporate tax registration Dubai, QFZP free zone tax, transfer pricing UAE, Federal Decree-Law No. 47 of 2022
+Prepared: August 2026
+SEO Metadata
+Title tag:\u000b Corporate Tax Consultants Dubai | UAE Corporate Tax Advisory
+Meta description:\u000b Corporate tax consultants in Dubai helping businesses register, file and stay compliant under Federal Decree-Law No. 47 of 2022. Free zone, TP and 9% CT advisory.
+H1:\u000b Corporate Tax Consultants in Dubai
+Hero Section
+Eyebrow:\u000b Federal Decree-Law No. 47 of 2022 - Now In Force
+Headline:\u000b Corporate Tax Consultants in Dubai Who Handle the Filing, Not Just the Advice
+Sub-headline:\u000b Registration, taxable income computation, free zone QFZP assessment, transfer pricing documentation and return filing - delivered by qualified UAE tax advisors before your nine-month deadline, not after it.
+Trust strip:
+FTA-registered tax agents
+500+ UAE entities onboarded
+Mainland, free zone and multinational groups
+Response within one working day
+Hero Lead Form
+Form heading:\u000b Get Your Corporate Tax Position Reviewed
+Form sub-line:\u000b Send your details and a consultant will come back with your registration status, applicable rate and next filing date. No cost, no obligation.
+Full name
+Field type: Text
+Placeholder: Your name
+Required: Yes
+Business email
+Field type: Email
+Placeholder: name@company.ae
+Required: Yes
+Mobile
+Field type: Telephone, with +971 selected by default
+Placeholder: 50 123 4567
+Required: Yes
+Company name
+Field type: Text
+Placeholder: Registered trade name
+Required: Yes
+Entity type
+Field type: Select
+Options:
+Mainland LLC
+Free Zone Company
+Branch of Foreign Company
+Sole Establishment
+Holding Company
+Not yet incorporated
+Required: Yes
+Annual turnover
+Field type: Select
+Options:
+Under AED 3 million
+AED 3 million–50 million
+AED 50 million–200 million
+Above AED 200 million
+Required: Yes
+Help needed
+Field type: Multi-select
+Options:
+Corporate tax registration
+Return filing
+Free zone QFZP assessment
+Transfer pricing documentation
+Tax group formation
+Health check or second opinion
+Required: No
+Message
+Field type: Text area
+Placeholder: Tell us about your financial year end and current status
+Required: No
+Consent line:\u000b I agree to be contacted about my enquiry. We do not share your data.
+Button:\u000b Request My Tax Review
+Micro-copy under button:\u000b Typical response time: under 24 hours on working days.
+Success message:\u000b Received. A corporate tax consultant will contact you on the number provided within one working day.
+Email field error message:\u000b Enter a valid business email so we can send your review.
+The UAE Is No Longer a Zero-Tax Jurisdiction
+For decades, the pitch for setting up in Dubai was simple: no corporate tax. That ended with Federal Decree-Law No. 47 of 2022 on the Taxation of Corporations and Businesses, which introduced a federal corporate tax applying to financial years beginning on or after 1 June 2023.
+A company with a calendar financial year entered its first tax period on 1 January 2024. A company with a June year-end entered it a full seven months earlier.
+The law is not punitive by international standards - the headline rate of 9% remains one of the lowest anywhere - but it is administratively demanding.
+Every taxable person must register with the Federal Tax Authority, maintain accounting records to a standard that supports a tax computation, determine taxable income under statutory adjustment rules, assess whether related-party dealings meet the arm’s length principle, and file a return within nine months of the end of the tax period.
+Missing any of those steps carries a penalty, and the penalties apply whether or not any tax is actually due.
+This is where most businesses discover the gap between having an accountant and having a corporate tax consultant.
+Bookkeeping produces financial statements. Corporate tax compliance requires a separate technical exercise on top of them - and one where the errors are expensive and often invisible until the FTA asks a question.
+The Rates: 0%, 9% and 15% Explained
+The UAE operates a tiered structure, and understanding which tier applies is the single most common source of confusion we resolve.
+0% corporate tax rate
+The 0% rate applies to taxable income up to AED 375,000. It also applies to the Qualifying Income of a Qualifying Free Zone Person.
+This is a genuine nil rate applied to the first slice of taxable income, not an exemption from the corporate tax regime.
+A business earning AED 500,000 in taxable income pays nothing on the first AED 375,000 and 9% on the remaining AED 125,000. Its resulting corporate tax liability would be AED 11,250.
+Being below the AED 375,000 threshold does not remove the obligation to register and file.
+9% corporate tax rate
+The standard 9% rate applies to taxable income above AED 375,000.
+It applies to mainland companies, non-qualifying free zone income, free zone entities that do not satisfy the Qualifying Free Zone Person conditions, and UAE permanent establishments of foreign companies.
+15% Domestic Minimum Top-up Tax
+A 15% Domestic Minimum Top-up Tax applies to multinational enterprise groups with consolidated global revenues of at least EUR 750 million in at least two of the four preceding financial years.
+It applies to financial years starting on or after 1 January 2025.
+The measure is aligned with the OECD Pillar Two framework. For groups that fall within its scope, the UAE’s 9% headline rate is only the starting point of the analysis.
+Small Business Relief
+Under Ministerial Decision No. 73 of 2023, a resident taxable person with revenue of AED 3 million or less in the current and all previous relevant tax periods may elect to be treated as having no taxable income.
+The relief is available for tax periods ending on or before 31 December 2026.
+Small Business Relief must be claimed through an election in the corporate tax return. It is not automatic.
+It is not available to free zone persons claiming the 0% qualifying rate or to members of large multinational groups.
+Taxable Income Is Not Accounting Profit
+Taxable income begins with accounting profit but is adjusted under the corporate tax rules.
+Potential adjustments include:
+Unrealised gains and losses.
+Exempt income, including qualifying dividends and gains covered by the participation exemption.
+Non-deductible expenditure.
+Interest expenses affected by the general interest deduction limitation, which is broadly based on 30% of adjusted EBITDA and is subject to a de minimis threshold.
+Entertainment expenditure, which is generally restricted to a 50% deduction.
+Transfer pricing adjustments.
+Tax losses may generally be carried forward indefinitely. However, they can normally offset only up to 75% of taxable income in a later tax period and remain subject to applicable continuity-of-ownership conditions.
+Free Zone Companies: The QFZP Conditions Most Businesses Fail
+Free zone companies can retain a 0% corporate tax rate, but only on Qualifying Income and only while they satisfy the conditions for Qualifying Free Zone Person status.
+This is the area where we see the most misplaced confidence.
+A trade licence issued by a free zone authority does not, by itself, confer Qualifying Free Zone Person status.
+To be treated as a Qualifying Free Zone Person under Article 18 of the Decree-Law and the supporting Cabinet and Ministerial Decisions, an entity must satisfy all the relevant conditions.
+Maintain Adequate Substance in the Free Zone
+Core income-generating activities must be conducted in a free zone.
+The entity must maintain adequate assets, an adequate number of qualified full-time employees and adequate operating expenditure in relation to the activities it carries out.
+Outsourcing may be permitted within a free zone, but the entity must be able to demonstrate adequate supervision of the outsourced activities.
+Derive Qualifying Income
+Qualifying Income can include income from transactions with other free zone persons where the recipient is the beneficial recipient of the relevant goods or services.
+It can also include income derived from Qualifying Activities conducted with a free zone person or another person.
+Qualifying Activities can include:
+Manufacturing of goods or materials.
+Processing of goods or materials.
+Holding shares and other securities for investment purposes.
+Ownership, management and operation of ships.
+Reinsurance services.
+Fund management services.
+Wealth and investment management services.
+Headquarter services provided to related parties.
+Treasury and financing services provided to related parties.
+Financing and leasing of aircraft.
+Distribution of goods or materials in or from a Designated Zone.
+Logistics services.
+Avoid Excluded Activities
+Excluded Activities can include:
+Transactions with natural persons, subject to limited exceptions.
+Banking activities.
+Most insurance activities.
+Most financing and leasing activities.
+Ownership or exploitation of immovable property, other than qualifying commercial property located in a free zone and transacted with another free zone person.
+Do Not Elect Into the Standard Corporate Tax Regime
+A free zone entity that elects to be subject to the standard corporate tax regime cannot claim the 0% rate as a Qualifying Free Zone Person for the relevant period.
+Comply With Transfer Pricing Requirements
+The entity must comply with the arm’s length principle for transactions with Related Parties and Connected Persons.
+It must also maintain the required transfer pricing documentation.
+Satisfy the De Minimis Requirement
+Non-qualifying revenue must not exceed the lower of:
+5% of the entity’s total revenue; or
+AED 5 million.
+Prepare Audited Financial Statements
+A Qualifying Free Zone Person must prepare audited financial statements in accordance with the applicable corporate tax requirements.
+The Five-Period Consequence
+Breaching the de minimis threshold or another Qualifying Free Zone Person condition can cause an entity to lose its QFZP status from the beginning of the relevant tax period.
+It will also remain disqualified for the following four tax periods.
+That means one breach can expose the entity to the standard corporate tax regime for five tax periods in total.
+A single mishandled mainland income stream can therefore convert five years of income from a potential 0% rate to the standard corporate tax rates.
+Even a compliant Qualifying Free Zone Person pays 9% on any non-qualifying taxable income it earns. The 0% rate is not a blanket exemption covering every income stream of the entity.
+Our free zone work typically begins with a revenue-stream mapping exercise.
+Every income line is tested against the Qualifying Activities and Excluded Activities rules. We calculate the available de minimis headroom and identify substance or documentation gaps while there is still time to correct them before the end of the financial year.
+Transfer Pricing and the Master File Requirement
+Article 34 requires transactions with Related Parties and Connected Persons to satisfy the arm’s length standard.
+Article 55 imposes transfer pricing documentation obligations.
+The UAE has adopted the OECD’s three-tier transfer pricing documentation model, and the applicable thresholds matter.
+Under Ministerial Decision No. 97 of 2023, a taxable person must maintain both a Master File and a Local File where either of the following conditions applies:
+Its revenue in the relevant tax period is AED 200 million or more.
+It is a constituent entity of a multinational group with total consolidated group revenue of AED 3.15 billion or more in the relevant tax period.
+Both files must be submitted to the Federal Tax Authority within 30 days of a request.
+Thirty days is not enough time to build reliable transfer pricing documentation from scratch. Credible groups prepare their documentation contemporaneously rather than waiting for an FTA request.
+Master File
+The Master File provides a group-level overview.
+It should cover the group’s organisational structure, its businesses and key value drivers, its intangible assets and research and development arrangements, its intercompany financial activities, and its financial and tax positions.
+It may also include details of relevant advance pricing agreements.
+Local File
+The Local File focuses specifically on the UAE taxable person.
+It should cover the entity’s management structure, controlled transactions with related parties, functional analysis, the selected transfer pricing methodology and the benchmarking or economic analysis used to support the pricing.
+Transfer Pricing Disclosure Form
+A transfer pricing disclosure form may need to be filed with the corporate tax return where transactions with Related Parties and Connected Persons exceed the prescribed thresholds.
+Country-by-Country Reporting
+Country-by-Country Reporting continues to apply to qualifying multinational groups at the AED 3.15 billion consolidated group revenue level.
+Connected Persons
+Connected Persons can include owners, directors, officers and their related parties.
+Payments and benefits provided to Connected Persons are deductible only to the extent that they correspond to the market value of the service or benefit received by the business.
+Owner and director remuneration that has never been benchmarked is one of the most frequently adjusted items we encounter during corporate tax health checks.
+What Our Corporate Tax Consultants in Dubai Deliver
+Corporate Tax Registration
+We assess your taxable person status, prepare and submit the registration application through EmaraTax, and confirm your Corporate Tax Registration Number and first tax period.
+Tax Computation and Return Filing
+We convert audited or management accounts into a compliant taxable income computation.
+The work includes a complete schedule of statutory adjustments, elections, exemptions and reliefs, followed by submission of the corporate tax return within the applicable nine-month deadline.
+Free Zone QFZP Assessment
+We test revenue streams, monitor the de minimis threshold, assess substance and prepare a written corporate tax position paper that can be presented to an auditor or the Federal Tax Authority.
+Transfer Pricing
+Our transfer pricing services include:
+Related-party transaction mapping.
+Transfer pricing method selection.
+Benchmarking studies.
+Master File preparation.
+Local File preparation.
+Transfer pricing disclosure form support.
+Intercompany agreement drafting.
+Tax Group Formation
+We review eligibility under the 95% ownership requirement, assess the mechanics of consolidation and determine whether forming a corporate tax group would genuinely improve the group’s position.
+Health Checks and Second Opinions
+We independently review filed corporate tax returns, existing computations or in-house tax positions.
+You receive a prioritised list of errors, risks and recommended remedial actions.
+Ongoing Corporate Tax Advisory
+Our ongoing advisory services can cover:
+Business and group restructuring.
+Permanent establishment risk.
+Cross-border payments.
+Double tax treaty relief.
+Foreign tax credits.
+Corporate tax elections.
+Related-party arrangements.
+Changes to free zone activities or revenue streams.
+Deadlines and Penalties
+Corporate tax registration deadlines are established by Federal Tax Authority decisions and can vary according to the date on which an entity’s licence was issued.
+Late corporate tax registration can attract an administrative penalty of AED 10,000.
+Corporate tax returns and any resulting tax payments are generally due within nine months of the end of the relevant tax period.
+Late filing penalties accrue monthly and increase after the first year.
+Additional penalties can apply for record-keeping failures, incorrect tax returns and errors in voluntary disclosures.
+Corporate tax records must generally be retained for seven years.
+If you are unregistered, unsure of your free zone status or approaching a filing deadline without a completed tax computation, the cost of acting now is materially lower than the cost of correcting the position later.
+Section CTA:\u000b Book a consultation with our corporate tax consultants in Dubai →
+Corporate Tax in the UAE - Frequently Asked Questions
+What is Federal Decree-Law No. 47 of 2022?
+Federal Decree-Law No. 47 of 2022 is the UAE’s corporate tax law, formally titled the Federal Decree-Law on the Taxation of Corporations and Businesses.
+It introduced a federal corporate tax on business profits for financial years beginning on or after 1 June 2023.
+The law is supported by Cabinet Decisions, Ministerial Decisions and Federal Tax Authority guidance that provide the detailed operational rules.
+What are the UAE corporate tax rates?
+The UAE applies a 0% rate to taxable income up to AED 375,000 and a 9% rate to taxable income above that threshold.
+A 0% rate may also apply to the Qualifying Income of a Qualifying Free Zone Person.
+A 15% Domestic Minimum Top-up Tax applies to multinational groups with consolidated global revenues of at least EUR 750 million in at least two of the four preceding financial years.
+The Domestic Minimum Top-up Tax applies to financial years starting on or after 1 January 2025.
+Do I need to register if my profit is below AED 375,000?
+Yes.
+The AED 375,000 threshold determines the corporate tax rate applied to taxable income. It does not determine whether a taxable person falls within the corporate tax regime.
+Every taxable person must register with the Federal Tax Authority, obtain a Corporate Tax Registration Number and file an annual corporate tax return, even where the resulting liability is nil.
+Are free zone companies exempt from corporate tax in the UAE?
+No.
+A free zone company may access a 0% rate on its Qualifying Income if it satisfies all the Qualifying Free Zone Person conditions.
+It pays 9% on any non-qualifying taxable income above the applicable threshold.
+Holding a free zone licence does not, by itself, confer Qualifying Free Zone Person status.
+What are the QFZP conditions?
+The main Qualifying Free Zone Person conditions include:
+Maintaining adequate substance in a free zone.
+Deriving Qualifying Income.
+Not electing to be subject to the standard corporate tax regime.
+Complying with the arm’s length principle.
+Maintaining the required transfer pricing documentation.
+Satisfying the de minimis requirement.
+Preparing audited financial statements.
+Under the de minimis requirement, non-qualifying revenue must not exceed the lower of 5% of total revenue or AED 5 million.
+What happens if a free zone company breaches the de minimis threshold?
+The company can cease to be a Qualifying Free Zone Person from the beginning of the relevant tax period.
+It will remain disqualified for the following four tax periods.
+Its income may therefore be taxed under the standard corporate tax rules for five tax periods in total.
+Who must prepare a transfer pricing Master File and Local File?
+A taxable person must maintain a Master File and Local File where:
+Its revenue is AED 200 million or more in the relevant tax period; or
+It is a constituent entity of a multinational group with consolidated group revenue of AED 3.15 billion or more in the relevant tax period.
+Both documents must be provided to the Federal Tax Authority within 30 days of a request.
+When is the corporate tax return due?
+A corporate tax return and the related tax payment are generally due within nine months of the end of the relevant tax period.
+For a financial year ending on 31 December 2025, the return and any corporate tax payment are due by 30 September 2026.
+What is Small Business Relief?
+Small Business Relief is an election available to qualifying resident taxable persons with revenue of AED 3 million or less.
+Where the election is validly made, the taxable person is treated as having no taxable income for the relevant period.
+The relief applies to tax periods ending on or before 31 December 2026.
+It must be elected in the corporate tax return and is not automatic.
+It is not available to Qualifying Free Zone Persons or members of large multinational groups that fall within the relevant exclusions.
+What penalties apply for corporate tax non-compliance?
+Potential administrative penalties include:
+AED 10,000 for late corporate tax registration.
+Monthly penalties for late filing.
+Penalties for late payment.
+Penalties for failing to maintain adequate records.
+Penalties for filing incorrect tax returns.
+Penalties connected with errors in voluntary disclosures.
+The exact exposure depends on the nature and duration of the non-compliance.
+Is there withholding tax on payments out of the UAE?
+The UAE currently applies a 0% withholding tax rate to domestic and cross-border payments that fall within the scope of the corporate tax withholding provisions.
+No separate withholding tax registration or periodic withholding tax filing is currently required.
+Do I need a corporate tax consultant, or can my accountant handle it?
+Accounting produces the financial statements used as the starting point for a corporate tax computation.
+Corporate tax compliance is a separate technical exercise involving statutory adjustments, elections, exemptions, free zone qualification analysis, related-party rules and transfer pricing.
+Where a business has related-party transactions, free zone income, Connected Person payments or cross-border structures, specialist corporate tax advice materially reduces the risk of an adjustment during an FTA review.
+Closing CTA:\u000b Still have questions? Speak to a corporate tax consultant in Dubai - your first consultation is free.
+*

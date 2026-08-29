@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Temporary and log files
+*.log
+wp_cookies.txt
+scratch/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

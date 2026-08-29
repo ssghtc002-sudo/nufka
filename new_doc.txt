@@ -1,0 +1,314 @@
+﻿AML CFT Compliance Services in Dubai, UAE
+Anti-Money Laundering and Combating the Financing of Terrorism obligations are among the most closely supervised requirements facing regulated businesses in Dubai and the wider UAE. Supervisory inspections are routine, and administrative penalties for weak controls are substantial.
+NUF Chartered Accountants delivers AML CFT Compliance Services in Dubai, helping businesses build and sustain controls that address money laundering, terrorist financing and proliferation financing risk in a way that stands up to regulatory scrutiny.
+Our work spans business-wide risk assessment, AML policy drafting, goAML enrolment, Customer Due Diligence and KYC design, Ultimate Beneficial Owner verification, PEP and sanctions screening, suspicious transaction reporting procedures, staff training and independent periodic review.
+Our AML CFT Compliance Services
+A compliance framework only works when it fits the business. Scale, complexity, customer base and product mix should all shape how far the controls go, and a programme built for a fifty-person brokerage rarely suits a two-person consultancy.
+NUFCA can support you with:
+* AML, CFT and CPF policies and procedures
+* Business-Wide Risk Assessment
+* Customer Risk Assessment methodology
+* goAML portal registration assistance
+* KYC and Customer Due Diligence design
+* Ultimate Beneficial Owner verification
+* Politically Exposed Person screening
+* Sanctions screening procedures
+* Enhanced Due Diligence frameworks
+* Source of Funds and Source of Wealth verification
+* Suspicious Transaction Report procedures
+* Suspicious Activity Report procedures
+* Compliance Officer and MLRO support
+* AML awareness training for staff
+* Record-keeping procedures
+* Periodic AML compliance reviews
+* Gap assessments against supervisory expectations
+
+
+goAML Portal Registration in the UAE
+goAML is the reporting platform operated by the UAE Financial Intelligence Unit, originally developed by the United Nations Office on Drugs and Crime and used to receive and analyse reports of suspicious transactions and activity.
+For Designated Non-Financial Businesses and Professions inside the applicable regulatory perimeter, enrolment is compulsory. It is worth stressing that the trigger is the licensed activity itself, not turnover or transaction volume. A dormant DNFBP with no filings is still expected to be registered.
+Access also needs to stay live. A lapsed account cannot be used when a report becomes necessary, and inspectors read that as a control failure in itself.
+The goAML Registration Process, Step by Step
+Enrolment runs in two broad phases: pre-registration through the Services Access Control Manager, followed by organisation registration on goAML itself.
+Step 1: Assemble the information
+Have the trade licence details ready, together with full particulars of the individual being appointed as Compliance Officer or Money Laundering Reporting Officer.
+Step 2: Complete SACM pre-registration
+Enrol through the Services Access Control Manager as a reporting institution. Businesses supervised by the Ministry of Economy and Tourism must select the correct supervisory authority and organisation type at this point; an error here is tedious to unwind later.
+Step 3: Configure Google Authenticator
+Two-factor authentication is part of login. The code rotates on a short cycle, so the authenticator should sit on a device the compliance function controls rather than a personal phone that may leave the business.
+Step 4: Open the production portal
+Once pre-registration clears, go to the portal and choose the Live or Production environment rather than the test system. Sign in with the username issued at pre-registration and the current authenticator code.
+Step 5: Register the organisation
+Choose the option to register a new organisation and work through the mandatory fields. Everything must reconcile with the pre-registration data and the company’s official documents; mismatched names or licence numbers are a common cause of rejection.
+Step 6: Upload supporting documents
+Typical requirements include:
+* Trade licence
+* Board or management authorisation letter appointing the Compliance Officer or MLRO
+* Passport copy for the authorised individual
+* Emirates ID, where applicable
+* UAE residence visa, where applicable
+
+
+Check the file format and size limits before uploading, as the portal rejects documents that fall outside them.
+Step 7: Submit
+Review every field once more, then submit. A reference number normally follows by email and should be kept for any subsequent enquiries.
+Step 8: Track the outcome
+Approval or rejection is communicated by email. Check junk and quarantine folders as well, since automated correspondence from government systems is frequently filtered.
+How NUFCA Assists With goAML Registration
+We can help you with:
+* Assessing whether your activity brings you within the DNFBP perimeter
+* Compiling the information the application requires
+* Reviewing supporting documents before submission
+* Compliance Officer and MLRO appointment formalities
+* Guidance at each stage of the registration
+* Building the internal escalation route that feeds suspicious transaction reporting
+* Drafting the AML policies that must sit behind the registration
+
+
+DNFBP AML Obligations in the UAE
+Designated Non-Financial Businesses and Professions face particular financial crime exposure and carry AML and CFT duties accordingly.
+The sectors we most often advise include:
+* Real estate agents and brokers
+* Dealers in precious metals and precious stones
+* Independent accountants and auditors
+* Trust and company service providers
+
+
+Each needs a programme calibrated to its own activity and risk profile. Lifting another firm’s manual and changing the letterhead is exactly what supervisors look for.
+Real Estate Agents and Brokers
+Property is an attractive route for placing and layering criminal proceeds, which puts brokers close to the risk.
+Controls should include:
+* Customer identification and independent verification
+* KYC on both buyer and seller sides
+* UBO verification where a party is a corporate entity
+* Documented customer risk classification
+* PEP and sanctions screening
+* Source of Funds verification
+* Source of Wealth checks where the risk warrants it
+* Enhanced Due Diligence on higher-risk relationships
+* Alertness to transactions that do not fit a normal commercial pattern
+* A clear internal escalation and reporting route
+* Record keeping
+* Staff training
+
+
+Watch for opaque corporate ownership, third-party payments with no evident connection to the buyer, unusual deal structuring, and funds that do not square with the customer’s known finances.
+Dealers in Precious Metals and Precious Stones
+This covers trading in gold, silver, platinum, diamonds, finished jewellery and other qualifying metals and stones. Risk is shaped by high values, cash intensity and cross-border movement.
+Appropriate procedures include:
+* Customer and UBO verification
+* Transaction-level risk assessment
+* Identification of linked or structured transactions
+* PEP screening
+* Sanctions screening
+* Source of Funds verification
+* Screening for exposure to high-risk jurisdictions
+* Counterparty and supply chain checks
+* Scrutiny of pricing or trading patterns that make no commercial sense
+* Suspicious transaction reporting
+* Record keeping
+
+
+Customer Due Diligence obligations apply to occasional transactions at or above AED 55,000, and that figure captures linked transactions that reach the threshold in aggregate. Splitting a single deal into smaller payments does not take it outside the requirement.
+Equally, a transaction sitting below the threshold does not become unreportable. Suspicion triggers the reporting duty regardless of value.
+Accountants and Auditors
+Independent accountants and auditors should operate a documented, risk-based programme covering:
+* Appointment of a suitably senior Compliance Officer or MLRO
+* Business-Wide Risk Assessment
+* Customer Risk Assessment
+* Written AML policies and procedures
+* Customer identification and verification
+* Beneficial ownership checks
+* PEP and sanctions screening
+* Enhanced Due Diligence
+* Ongoing monitoring of client relationships
+* Internal escalation of suspicious activity
+* goAML reporting procedures
+* Staff training
+* Record keeping
+* Periodic independent testing of the framework
+
+
+Heightened diligence is sensible where an engagement involves layered structures, cross-border elements, restructuring, or arrangements that obscure who ultimately benefits.
+Trust and Company Service Providers
+TCSPs sit at an elevated risk point because the services they sell are the very instruments through which ownership can be obscured.
+Relevant activities include:
+* Incorporating companies and other legal persons
+* Providing a registered office or business address
+* Supplying directors or company secretaries
+* Acting as trustee, or arranging for another party to act
+* Providing nominee shareholder arrangements
+* General business administration services
+
+
+Procedures must establish who ultimately owns or controls the client and why the structure exists. A structure with no coherent commercial rationale is a warning sign on its own.
+Focus areas:
+* Layered ownership chains
+* Ultimate Beneficial Owners
+* Nominee arrangements
+* Cross-border structures
+* Exposure to high-risk jurisdictions
+* Source of Funds
+* Source of Wealth
+* PEP connections
+* Sanctions exposure
+* Unexplained changes in ownership or control
+
+
+KYC Verification: A Practical Framework
+KYC sits at the centre of any AML programme, and it means far more than filing a passport copy. The objective is knowing who you are dealing with, who stands behind them, why they want the service, and whether their behaviour matches that picture over time.
+1. Identify the customer
+For individuals, collect:
+* Full legal name
+* Nationality
+* Date of birth
+* Passport particulars
+* Emirates ID particulars, where applicable
+* Residential address
+* Contact details
+
+
+Verification must rest on reliable, independent documents or data, not on what the customer tells you.
+2. Verify corporate customers
+For entities, obtain:
+* Registered legal name
+* Trade licence or registration number
+* Date and place of incorporation
+* Registered address
+* Principal place of business
+* Nature of the business
+* Legal form
+* Ownership structure
+* Control structure
+* Details of those authorised to act
+
+
+The authority of any representative signing or instructing on the entity’s behalf should be verified as well.
+3. Identify the Ultimate Beneficial Owner
+Work through the ownership chain to the natural person or persons who ultimately own or control the customer. Stopping at the first shareholder on the certificate defeats the purpose, and unusually layered structures call for Enhanced Due Diligence.
+4. Screen for PEPs and sanctions
+Screen customers, beneficial owners and connected parties against applicable sanctions lists, and establish whether anyone involved is a Politically Exposed Person. Matches generally call for senior approval, additional verification and evidence of Source of Funds and Wealth.
+5. Understand the purpose of the relationship
+Establish what the customer wants and why. Depending on the service, that may cover:
+* Expected transaction types
+* Expected values
+* Countries involved
+* Likely counterparties
+* Source of funds
+* Commercial rationale
+* Expected frequency
+
+
+This becomes the baseline against which later activity is judged. Without it, monitoring has nothing to measure against.
+6. Verify Source of Funds and Source of Wealth
+Source of Funds concerns the origin of money in a particular transaction. Source of Wealth is the broader question of how the person accumulated their assets. The two are often confused and are not interchangeable.
+Supporting evidence may include:
+* Bank statements
+* Audited financial statements
+* Salary or employment records
+* Business income records
+* Property sale agreements
+* Investment statements
+* Dividend records
+* Inheritance or probate documentation
+* Other reliable third-party evidence
+
+
+Depth of verification should track the level of risk, not be applied uniformly to everyone.
+7. Assign a risk rating
+Every customer should be scored against a documented methodology. Typical factors:
+* Customer type
+* Nationality and country of residence
+* Geographic exposure
+* Business activity
+* Ownership complexity
+* Products or services used
+* Transaction patterns
+* Delivery channels
+* PEP status
+* Sanctions exposure
+* Source of Funds
+* Source of Wealth
+
+
+Higher ratings must translate into visibly stronger controls, otherwise the rating exercise is decorative.
+8. Apply Enhanced Due Diligence
+EDD is required wherever elevated money laundering, terrorist financing or proliferation financing risk is present. It can involve:
+* Additional identification information
+* Deeper beneficial ownership enquiry
+* Independent corroboration from further sources
+* Establishing Source of Funds
+* Establishing Source of Wealth
+* More detail on the purpose behind transactions
+* Senior management sign-off on the relationship
+* Shortened review cycles
+* Closer transaction monitoring
+
+
+9. Monitor on an ongoing basis
+Onboarding is the beginning, not the end. Relationships need monitoring and records need refreshing at a frequency driven by risk.
+Ask continually whether activity stays consistent with the customer’s stated business, expected behaviour, risk rating and declared funding sources. Anything outside that picture goes to the Compliance Officer or MLRO for assessment and, where warranted, reporting.
+10. Retain the records
+Maintain adequate documentation of:
+* Customer identification
+* Beneficial ownership
+* KYC verification
+* Risk assessments
+* Transactions
+* Source of Funds
+* Source of Wealth
+* PEP and sanctions screening
+* Enhanced Due Diligence
+* Internal reviews
+* Suspicious activity assessments
+* Regulatory reports
+* Training attendance and content
+
+
+DNFBPs are generally required to keep these records for a minimum of five years, subject to the applicable requirements. Note that assessments concluding no report was needed should be documented too, since the reasoning is what an inspector will want to see.
+Why Work With NUFCA
+AML compliance is not a template exercise. Supervisors look for policies that describe what the business actually does, risk assessments grounded in real customer data, and evidence that controls operate in practice.
+NUF Chartered Accountants provides hands-on AML support to businesses in Dubai and across the UAE, covering:
+* Framework design and implementation
+* goAML registration
+* Policies and procedures
+* Business-Wide Risk Assessments
+* Customer Risk Assessments
+* KYC and CDD procedures
+* UBO verification processes
+* PEP and sanctions screening controls
+* Enhanced Due Diligence
+* Source of Funds and Source of Wealth procedures
+* Compliance Officer and MLRO support
+* STR and SAR reporting procedures
+* Staff training
+* Periodic compliance reviews and inspection readiness
+
+
+Talk to Us About Your AML Framework
+Whether you are building a programme from scratch, working through goAML enrolment, revisiting dated KYC procedures or preparing for a supervisory inspection, NUF Chartered Accountants can help.
+Contact NUF Chartered Accountants for AML CFT compliance services in Dubai and throughout the UAE.
+Frequently Asked Questions
+What do AML CFT compliance services in Dubai cover?
+They help a business identify, assess and reduce money laundering, terrorist financing and proliferation financing risk. Typical scope includes risk assessments, written policies, goAML enrolment, KYC and Customer Due Diligence, beneficial ownership verification, PEP and sanctions screening, training and reporting procedures.
+Which businesses are DNFBPs in the UAE?
+The main categories we advise are real estate agents and brokers, dealers in precious metals and stones, independent accountants and auditors, and trust and company service providers. Other professions fall within the perimeter depending on the activity performed, so check your licensed activity against the current definitions.
+Is goAML registration compulsory?
+For DNFBPs within the reporting framework, yes. It is how regulated entities submit Suspicious Transaction Reports, Suspicious Activity Reports and other filings to the UAE Financial Intelligence Unit. Low activity is not an exemption.
+How does registration work?
+In outline: SACM pre-registration, Google Authenticator setup, login to the production portal, organisation registration, completion of mandatory fields, document upload, and submission for approval.
+What documents are needed?
+Usually the trade licence, an authorisation letter appointing the Compliance Officer or MLRO, and identification for that individual, typically passport plus Emirates ID where applicable.
+What KYC checks are expected of DNFBPs?
+Identify and verify the customer, confirm representatives’ authority, establish beneficial ownership, understand the purpose of the relationship, assign a risk rating, screen for PEP and sanctions exposure, verify Source of Funds or Wealth where risk requires it, and monitor thereafter.
+When is Enhanced Due Diligence needed?
+Wherever elevated risk is identified. Common triggers are PEP involvement, high-risk jurisdictions, opaque ownership, transactions without clear economic purpose, and doubts about information gathered earlier.
+When does CDD apply to an occasional transaction?
+For dealers in precious metals and stones, at or above AED 55,000, counting linked transactions that reach that level together. CDD is also required where suspicion arises or where previously obtained customer information is in doubt, whatever the amount.
+How long must records be kept?
+Generally at least five years for AML, KYC, transaction and supporting records, subject to the applicable UAE requirements.
+Can NUFCA handle goAML registration and ongoing compliance?
+Yes. We assist with registration, policies, risk assessments, KYC and CDD processes, UBO verification, PEP and sanctions controls, Enhanced Due Diligence, training and periodic reviews.
+
+
+This page is general information and is not legal or regulatory advice. UAE AML and CFT requirements, thresholds and supervisory guidance are subject to change. Confirm your position with your supervisory authority or with NUF Chartered Accountants before acting.

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Tax Consultants Dubai | UAE Corporate Tax Advisory</title>
+    <meta name="description" content="Corporate tax consultants in Dubai helping businesses register, file and stay compliant under Federal Decree-Law No. 47 of 2022. Free zone, TP and 9% CT advisory.">
+    <style>
+        /* Modern Design Tokens & Layout for NUFCA */
+        :root {
+            --primary-dark: #0b2545;
+            --primary-blue: #134074;
+            --accent-blue: #8da9c4;
+            --light-bg: #f8f9fa;
+            --text-main: #1d2d44;
+            --text-muted: #4a5568;
+            --border-color: #e2e8f0;
+            --success-color: #28a745;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
+            color: #ffffff;
+            padding: 60px 0 80px 0;
+            border-radius: 0 0 16px 16px;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            gap: 40px;
+            align-items: start;
+        }
+
+        @media (max-width: 991px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .eyebrow {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+            font-size: 38px;
+            font-weight: 800;
+            line-height: 1.25;
+            margin: 0 0 20px 0;
+            color: #ffffff;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .trust-strip {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .trust-badge::before {
+            content: "✓";
+            color: var(--accent-blue);
+            font-weight: bold;
+        }
+
+        /* Lead Form Container */
+        .lead-form-card {
+            background: #ffffff;
+            color: var(--text-main);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-color);
+        }
+
+        .form-heading {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin: 0 0 8px 0;
+        }
+
+        .form-subline {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--primary-dark);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px 12px;
+            font-size: 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+        }
+
+        .btn-primary {
+            width: 100%;
+            background: var(--primary-blue);
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 14px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .micro-copy {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Content Sections */
+        .content-section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 30px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 20px;
+        }
+
+        .rates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .rate-card {
+            background: var(--light-bg);
+            border-top: 4px solid var(--primary-blue);
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 1px solid var(--border-color);
+            border-right: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .rate-number {
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .rate-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+            color: var(--primary-dark);
+        }
+
+        /* FAQ Accordion */
+        .faq-item {
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background: #ffffff;
+            padding: 18px 20px;
+            font-weight: 700;
+            font-size: 17px;
+            color: var(--primary-dark);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            padding: 0 20px 20px 20px;
+            color: var(--text-muted);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <span class="eyebrow">Federal Decree-Law No. 47 of 2022 - Now In Force</span>
+                    <h1 class="hero-title">Corporate Tax Consultants in Dubai Who Handle the Filing, Not Just the Advice</h1>
+                    <p class="hero-subtitle">Registration, taxable income computation, free zone QFZP assessment, transfer pricing documentation and return filing - delivered by qualified UAE tax advisors before your nine-month deadline, not after it.</p>
+                    
+                    <div class="trust-strip">
+                        <div class="trust-badge">FTA-registered tax agents</div>
+                        <div class="trust-badge">500+ UAE entities onboarded</div>
+                        <div class="trust-badge">Mainland, free zone & MNEs</div>
+                        <div class="trust-badge">Response within 1 working day</div>
+                    </div>
+                </div>
+
+                <!-- Lead Form Card -->
+                <div class="lead-form-card">
+                    <h2 class="form-heading">Get Your Corporate Tax Position Reviewed</h2>
+                    <p class="form-subline">Send your details and a consultant will come back with your registration status, applicable rate and next filing date. No cost, no obligation.</p>
+                    
+                    <form action="https://nufca.com/contact-us/" method="POST">
+                        <div class="form-group">
+                            <label>Full Name *</label>
+                            <input type="text" class="form-control" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Business Email *</label>
+                            <input type="email" class="form-control" placeholder="name@company.ae" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mobile Number *</label>
+                            <input type="tel" class="form-control" placeholder="+971 50 123 4567" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Company Name *</label>
+                            <input type="text" class="form-control" placeholder="Registered trade name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Entity Type *</label>
+                            <select class="form-control" required>
+                                <option value="">Select Entity Type</option>
+                                <option value="Mainland LLC">Mainland LLC</option>
+                                <option value="Free Zone Company">Free Zone Company</option>
+                                <option value="Branch of Foreign Company">Branch of Foreign Company</option>
+                                <option value="Sole Establishment">Sole Establishment</option>
+                                <option value="Holding Company">Holding Company</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Annual Turnover *</label>
+                            <select class="form-control" required>
+                                <option value="">Select Annual Turnover</option>
+                                <option value="Under AED 3 million">Under AED 3 million</option>
+                                <option value="AED 3 million–50 million">AED 3 million–50 million</option>
+                                <option value="AED 50 million–200 million">AED 50 million–200 million</option>
+                                <option value="Above AED 200 million">Above AED 200 million</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Request My Tax Review</button>
+                        <div class="micro-copy">Typical response time: under 24 hours on working days.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Body -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">The UAE Is No Longer a Zero-Tax Jurisdiction</h2>
+            <p>For decades, the pitch for setting up in Dubai was simple: no corporate tax. That ended with <strong>Federal Decree-Law No. 47 of 2022 on the Taxation of Corporations and Businesses</strong>, which introduced a federal corporate tax applying to financial years beginning on or after 1 June 2023.</p>
+            <p>A company with a calendar financial year entered its first tax period on 1 January 2024. A company with a June year-end entered it a full seven months earlier.</p>
+            <p>The law is not punitive by international standards - the headline rate of 9% remains one of the lowest anywhere - but it is administratively demanding. Every taxable person must register with the Federal Tax Authority, maintain accounting records, determine taxable income, assess related-party dealings, and file a return within nine months.</p>
+
+            <h2 class="section-title" style="margin-top: 50px;">The Corporate Tax Rates Explained</h2>
+            <div class="rates-grid">
+                <div class="rate-card">
+                    <div class="rate-number">0%</div>
+                    <h3>0% Tax Rate</h3>
+                    <p>Applies to taxable income up to AED 375,000 and to the Qualifying Income of a Qualifying Free Zone Person (QFZP).</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-number">9%</div>
+                    <h3>9% Standard Rate</h3>
+                    <p>Applies to taxable income exceeding AED 375,000 for mainland companies and non-qualifying free zone income.</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-number">15%</div>
+                    <h3>15% MNE Minimum Tax</h3>
+                    <p>Applies to multinational enterprise groups with consolidated global revenues of EUR 750 million or more under OECD Pillar Two.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="content-section" style="background: var(--light-bg);">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">What is Federal Decree-Law No. 47 of 2022?</div>
+                <div class="faq-answer">Federal Decree-Law No. 47 of 2022 is the UAE’s corporate tax law introducing a federal corporate tax on business profits for financial years beginning on or after 1 June 2023.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do I need to register if my profit is below AED 375,000?</div>
+                <div class="faq-answer">Yes. The AED 375,000 threshold determines the tax rate, not the registration requirement. Every taxable person must register with the Federal Tax Authority and file a return.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Are free zone companies exempt from corporate tax in the UAE?</div>
+                <div class="faq-answer">No. A free zone company may access a 0% rate on its Qualifying Income only if it satisfies all the Qualifying Free Zone Person (QFZP) conditions.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Federal Decree-Law No. 47 of 2022?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Federal Decree-Law No. 47 of 2022 is the UAE’s corporate tax law introducing a federal corporate tax on business profits for financial years beginning on or after 1 June 2023."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Do I need to register if my profit is below AED 375,000?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The AED 375,000 threshold determines the tax rate, not the registration requirement. Every taxable person must register with the Federal Tax Authority and file a return."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Are free zone companies exempt from corporate tax in the UAE?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. A free zone company may access a 0% rate on its Qualifying Income only if it satisfies all the Qualifying Free Zone Person (QFZP) conditions."
+        }
+      }]
+    }
+    </script>
+</body>
+</html>
