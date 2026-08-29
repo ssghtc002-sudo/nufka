@@ -8,16 +8,16 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
   :root {
-    --primary: #0b2545;
-    --primary-light: #134074;
-    --accent: #25d366;
-    --accent-blue: #0284c7;
-    --accent-purple: #7c3aed;
-    --bg: #f8fafc;
-    --card-bg: #ffffff;
-    --border: #e2e8f0;
-    --text-main: #0f172a;
-    --text-muted: #64748b;
+    --bg: #080c14;
+    --card-bg: #0f172a;
+    --card-hover: #162032;
+    --border: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #38bdf8;
+    --accent-green: #4ade80;
+    --accent-purple: #c084fc;
+    --accent-amber: #fbbf24;
   }
 
   @page {
@@ -43,54 +43,17 @@
     padding: 0 20px;
   }
 
-  /* Floating Action Bar (Hidden in Print) */
-  .floating-bar {
-    position: sticky;
-    top: 15px;
-    z-index: 999;
-    background: rgba(11, 37, 69, 0.95);
-    backdrop-filter: blur(10px);
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    margin-bottom: 25px;
-    border: 1px solid rgba(255,255,255,0.15);
-  }
-  .floating-title { font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px; }
-  .btn-group { display: flex; gap: 10px; }
-  .btn-ui {
-    background: #134074;
-    color: #fff;
-    border: 1px solid rgba(255,255,255,0.2);
-    padding: 7px 16px;
-    border-radius: 20px;
-    font-size: 12.5px;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .btn-ui:hover { background: #1e4e8c; transform: translateY(-1px); }
-  .btn-ui-primary { background: #25d366; color: #0b2545; border-color: #25d366; font-weight: 700; }
-  .btn-ui-primary:hover { background: #20ba59; color: #0b2545; }
-
   /* Header Banner */
   .hero-banner {
-    background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
+    background: linear-gradient(135deg, #0b1d3a 0%, #1e3a8a 100%);
     color: #ffffff;
     padding: 35px 35px;
     border-radius: 16px;
     margin-bottom: 25px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(11, 37, 69, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   }
   .hero-banner::after {
     content: '';
@@ -99,21 +62,21 @@
     right: -50px;
     width: 250px;
     height: 250px;
-    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, transparent 70%);
     border-radius: 50%;
   }
   .hero-meta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
     padding-bottom: 14px;
     margin-bottom: 18px;
     font-size: 13px;
     color: #cbd5e1;
   }
   .badge-pulse {
-    background: rgba(37, 211, 102, 0.2);
+    background: rgba(74, 222, 128, 0.15);
     color: #4ade80;
     border: 1px solid #4ade80;
     padding: 4px 12px;
@@ -135,7 +98,7 @@
     box-shadow: 0 0 8px #4ade80;
   }
   .hero-title { font-size: 26px; font-weight: 800; margin-bottom: 8px; color: #fff; }
-  .hero-sub { font-size: 14.5px; color: #93c5fd; max-width: 900px; line-height: 1.5; }
+  .hero-sub { font-size: 14.5px; color: #bae6fd; max-width: 900px; line-height: 1.5; }
 
   /* KPI Cards Grid */
   .kpi-row {
@@ -149,9 +112,14 @@
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     position: relative;
     overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .kpi-card:hover {
+    transform: translateY(-2px);
+    border-color: #334155;
   }
   .kpi-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
   .kpi-icon {
@@ -163,21 +131,21 @@
     justify-content: center;
     font-size: 20px;
   }
-  .icon-blue { background: #eff6ff; color: #2563eb; }
-  .icon-green { background: #f0fdf4; color: #16a34a; }
-  .icon-purple { background: #faf5ff; color: #7c3aed; }
-  .icon-amber { background: #fffbeb; color: #d97706; }
+  .icon-blue { background: rgba(56, 189, 248, 0.12); color: #38bdf8; }
+  .icon-green { background: rgba(74, 222, 128, 0.12); color: #4ade80; }
+  .icon-purple { background: rgba(192, 132, 252, 0.12); color: #c084fc; }
+  .icon-amber { background: rgba(251, 191, 36, 0.12); color: #fbbf24; }
 
-  .kpi-number { font-size: 28px; font-weight: 800; color: #0b2545; line-height: 1.1; margin-bottom: 4px; }
-  .kpi-title { font-size: 12.5px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; }
-  .kpi-trend { font-size: 12px; font-weight: 600; color: #16a34a; margin-top: 8px; display: flex; align-items: center; gap: 4px; }
+  .kpi-number { font-size: 28px; font-weight: 800; color: #ffffff; line-height: 1.1; margin-bottom: 4px; }
+  .kpi-title { font-size: 12.5px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi-trend { font-size: 12px; font-weight: 600; color: #4ade80; margin-top: 8px; display: flex; align-items: center; gap: 4px; }
   
-  .progress-bar-wrap { width: 100%; height: 6px; background: #e2e8f0; border-radius: 4px; margin-top: 10px; overflow: hidden; }
+  .progress-bar-wrap { width: 100%; height: 6px; background: #1e293b; border-radius: 4px; margin-top: 10px; overflow: hidden; }
   .progress-fill { height: 100%; border-radius: 4px; }
-  .fill-green { background: #22c55e; width: 100%; }
-  .fill-blue { background: #3b82f6; width: 88%; }
-  .fill-purple { background: #a855f7; width: 95%; }
-  .fill-amber { background: #f59e0b; width: 75%; }
+  .fill-green { background: #4ade80; width: 100%; box-shadow: 0 0 8px rgba(74, 222, 128, 0.4); }
+  .fill-blue { background: #38bdf8; width: 88%; box-shadow: 0 0 8px rgba(56, 189, 248, 0.4); }
+  .fill-purple { background: #c084fc; width: 95%; box-shadow: 0 0 8px rgba(192, 132, 252, 0.4); }
+  .fill-amber { background: #fbbf24; width: 75%; box-shadow: 0 0 8px rgba(251, 191, 36, 0.4); }
 
   /* Visual Charts Section */
   .charts-grid {
@@ -191,7 +159,7 @@
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 22px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   .chart-header {
     display: flex;
@@ -199,21 +167,21 @@
     align-items: center;
     margin-bottom: 16px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #f1f5f9;
+    border-bottom: 1px solid var(--border);
   }
-  .chart-title { font-size: 16px; font-weight: 800; color: #0b2545; display: flex; align-items: center; gap: 8px; }
-  .chart-badge { font-size: 11px; background: #f1f5f9; padding: 3px 8px; border-radius: 12px; font-weight: 600; color: #475569; }
+  .chart-title { font-size: 16px; font-weight: 800; color: #f8fafc; display: flex; align-items: center; gap: 8px; }
+  .chart-badge { font-size: 11px; background: #1e293b; padding: 3px 8px; border-radius: 12px; font-weight: 600; color: var(--text-muted); }
 
   /* Section Heading */
   .section-heading {
     font-size: 18px;
     font-weight: 800;
-    color: #0b2545;
+    color: #38bdf8;
     margin: 40px 0 16px 0;
     display: flex;
     align-items: center;
     gap: 10px;
-    border-bottom: 2px solid #e2e8f0;
+    border-bottom: 2px solid var(--border);
     padding-bottom: 8px;
   }
 
@@ -230,14 +198,14 @@
     position: relative;
   }
   .card-before {
-    background: #fff1f2;
-    border: 1px solid #fecdd3;
-    border-left: 5px solid #e11d48;
+    background: rgba(225, 29, 72, 0.08);
+    border: 1px solid rgba(244, 63, 94, 0.25);
+    border-left: 5px solid #f43f5e;
   }
   .card-after {
-    background: #f0fdf4;
-    border: 1px solid #bbf7d0;
-    border-left: 5px solid #16a34a;
+    background: rgba(34, 197, 94, 0.08);
+    border: 1px solid rgba(74, 222, 128, 0.25);
+    border-left: 5px solid #22c55e;
   }
   .transform-header {
     font-size: 15px;
@@ -247,8 +215,8 @@
     align-items: center;
     justify-content: space-between;
   }
-  .card-before .transform-header { color: #be123c; }
-  .card-after .transform-header { color: #15803d; }
+  .card-before .transform-header { color: #fb7185; }
+  .card-after .transform-header { color: #4ade80; }
   .transform-list { list-style: none; padding: 0; margin: 0; }
   .transform-list li {
     font-size: 13px;
@@ -257,8 +225,10 @@
     position: relative;
     line-height: 1.45;
   }
-  .card-before .transform-list li::before { content: '✕'; position: absolute; left: 0; color: #e11d48; font-weight: 800; }
-  .card-after .transform-list li::before { content: '✓'; position: absolute; left: 0; color: #16a34a; font-weight: 800; }
+  .card-before .transform-list li { color: #fecdd3; }
+  .card-before .transform-list li::before { content: '✕'; position: absolute; left: 0; color: #f43f5e; font-weight: 800; }
+  .card-after .transform-list li { color: #dcfce7; }
+  .card-after .transform-list li::before { content: '✓'; position: absolute; left: 0; color: #4ade80; font-weight: 800; }
 
   /* Schema Grid Cards */
   .schema-grid {
@@ -270,15 +240,15 @@
   .schema-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
-    border-left: 4px solid var(--primary-light);
+    border-left: 4px solid #38bdf8;
     border-radius: 10px;
     padding: 18px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   }
   .schema-card-title {
     font-weight: 800;
     font-size: 15px;
-    color: var(--primary);
+    color: #f8fafc;
     margin-bottom: 6px;
     display: flex;
     justify-content: space-between;
@@ -296,7 +266,7 @@
     border: 1px solid var(--border);
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     margin-bottom: 30px;
   }
   table {
@@ -306,19 +276,22 @@
     text-align: left;
   }
   thead th {
-    background: #0b2545;
-    color: #ffffff;
+    background: #162032;
+    color: #38bdf8;
     padding: 12px 14px;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--border);
   }
-  tbody tr { border-bottom: 1px solid #f1f5f9; transition: background 0.15s; }
-  tbody tr:hover { background: #f8fafc; }
+  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; color: #e2e8f0; }
+  tbody tr:nth-child(even) { background: rgba(255, 255, 255, 0.015); }
+  tbody tr:hover { background: rgba(56, 189, 248, 0.06); }
   tbody td { padding: 10px 14px; vertical-align: middle; }
-  .url-link { color: #134074; text-decoration: none; font-weight: 600; font-family: monospace; font-size: 12px; }
-  .url-link:hover { text-decoration: underline; color: #0284c7; }
+  tbody td strong { color: #ffffff; }
+  .url-link { color: #38bdf8; text-decoration: none; font-weight: 600; font-family: monospace; font-size: 12px; }
+  .url-link:hover { text-decoration: underline; color: #7dd3fc; }
   .badge-tag {
     display: inline-block;
     padding: 3px 8px;
@@ -326,9 +299,9 @@
     font-size: 11px;
     font-weight: 700;
   }
-  .badge-green { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
-  .badge-blue { background: #e0f2fe; color: #0369a1; border: 1px solid #7dd3fc; }
-  .badge-amber { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; }
+  .badge-green { background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); }
+  .badge-blue { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+  .badge-amber { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); }
 
   /* Strategic Roadmap Grid */
   .roadmap-grid {
@@ -338,15 +311,15 @@
     margin-bottom: 30px;
   }
   .roadmap-card {
-    background: #ffffff;
-    border: 1px solid #cbd5e1;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   .roadmap-card h4 {
     font-size: 15px;
-    color: #0b2545;
+    color: #f8fafc;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -355,19 +328,18 @@
 
   /* Footer */
   .report-footer {
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid var(--border);
     padding-top: 20px;
     margin-top: 40px;
     font-size: 12px;
-    color: #64748b;
+    color: var(--text-muted);
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   @media print {
-    .floating-bar { display: none !important; }
-    body { background: #fff; font-size: 10pt; }
+    body { background: #080c14; font-size: 10pt; color: #fff; }
     .container { max-width: 100%; margin: 0; padding: 0; }
     .chart-box { page-break-inside: avoid; }
     .table-wrap { page-break-inside: avoid; }
@@ -380,12 +352,10 @@
 
 <div class="container">
 
-
-
   <!-- Header Cover Banner -->
   <div class="hero-banner">
     <div class="hero-meta">
-      <div><strong>Client:</strong> NUF Chartered Accountants (NUFCA) &nbsp;|&nbsp; <strong>Domain:</strong> <a href="https://nufca.com" target="_blank" style="color:#93c5fd;">nufca.com</a></div>
+      <div><strong>Client:</strong> NUF Chartered Accountants (NUFCA) &nbsp;|&nbsp; <strong>Domain:</strong> <a href="https://nufca.com" target="_blank" style="color:#38bdf8;">nufca.com</a></div>
       <div class="badge-pulse">Live &amp; Fully Verified</div>
     </div>
     <h1 class="hero-title">SEO &amp; Programmatic Strategy Master Performance Report</h1>
@@ -478,7 +448,7 @@
     <div class="transform-card card-before">
       <div class="transform-header">
         <span>🔴 Previous Legacy Architecture (Before)</span>
-        <span class="badge-tag" style="background:#fecdd3; color:#be123c;">Deficiencies Fixed</span>
+        <span class="badge-tag" style="background: rgba(244, 63, 94, 0.2); color: #fda4af;">Deficiencies Fixed</span>
       </div>
       <ul class="transform-list">
         <li><strong>Truncated Technical Content:</strong> Crucial COSO audit frameworks, 21-point Mollak checklists, and penalty schedules were omitted or heavily summarized.</li>
@@ -911,30 +881,34 @@
   <div class="section-heading">🚀 Strategic Action Plan &amp; Next Milestones</div>
 
   <div class="roadmap-grid">
-    <div class="roadmap-card" style="border-left: 4px solid #134074;">
+    <div class="roadmap-card" style="border-left: 4px solid #38bdf8;">
       <h4><span>🏢</span> Phase 2 Programmatic Expansion</h4>
-      <p style="color:#475569; font-size:13px; margin:0;">
-        Launch localized programmatic clusters for <strong>Business Setup Consultants Dubai (2,900 Vol)</strong>, <strong>Offshore Company Formation (2,400 Vol)</strong>, and <strong>Bookkeeping Services (720 Vol)</strong> to tap into the highest-volume commercial queries in the UAE market.
+      <p style="color:#94a3b8; font-size:13px; margin:0;">
+        Launch localized programmatic clusters for <strong style="color:#f8fafc;">Business Setup Consultants Dubai (2,900 Vol)</strong>, <strong style="color:#f8fafc;">Offshore Company Formation (2,400 Vol)</strong>, and <strong style="color:#f8fafc;">Bookkeeping Services (720 Vol)</strong> to tap into the highest-volume commercial queries in the UAE market.
       </p>
     </div>
 
-    <div class="roadmap-card" style="border-left: 4px solid #16a34a;">
+    <div class="roadmap-card" style="border-left: 4px solid #4ade80;">
       <h4><span>📍</span> Google Business Local 3-Pack Optimization</h4>
-      <p style="color:#475569; font-size:13px; margin:0;">
+      <p style="color:#94a3b8; font-size:13px; margin:0;">
         Synchronize Google Business Profiles for Bur Dubai HQ, Deira Gold Souk, Abu Dhabi Tamouh Tower, and Sharjah Hamriyah with exact schema NAP (Name, Address, Phone) data to dominate Local 3-Pack map rankings.
       </p>
     </div>
   </div>
 
   <div class="report-footer">
-    <div><strong>NUF Chartered Accountants</strong> &bull; Executive SEO &amp; Technical Architecture Report</div>
+    <div><strong style="color:#f8fafc;">NUF Chartered Accountants</strong> &bull; Executive SEO &amp; Technical Architecture Report</div>
     <div>Generated &bull; August 2026 &bull; Verified 100% Operational</div>
   </div>
 
 </div>
 
-<!-- Chart Initialization Script -->
+<!-- Chart Initialization Script with Dark Theme Palette -->
 <script>
+  // Set Global Chart.js Defaults for Dark Mode
+  Chart.defaults.color = '#94a3b8';
+  Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.08)';
+
   // 1. Traffic Area Chart
   const ctxTraffic = document.getElementById('trafficChart').getContext('2d');
   new Chart(ctxTraffic, {
@@ -945,28 +919,54 @@
         {
           label: 'Search Impressions',
           data: [980, 1250, 1420, 1890, 2100, 2350, 2580],
-          borderColor: '#134074',
-          backgroundColor: 'rgba(19, 64, 116, 0.12)',
+          borderColor: '#38bdf8',
+          backgroundColor: 'rgba(56, 189, 248, 0.15)',
           fill: true,
           tension: 0.4,
-          borderWidth: 3
+          borderWidth: 3,
+          pointBackgroundColor: '#38bdf8',
+          pointRadius: 4
         },
         {
           label: 'Organic Clicks',
           data: [4, 7, 9, 12, 14, 16, 18],
-          borderColor: '#22c55e',
-          backgroundColor: 'rgba(34, 197, 94, 0.1)',
+          borderColor: '#4ade80',
+          backgroundColor: 'rgba(74, 222, 128, 0.15)',
           fill: true,
           tension: 0.4,
-          borderWidth: 2.5
+          borderWidth: 2.5,
+          pointBackgroundColor: '#4ade80',
+          pointRadius: 4
         }
       ]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { position: 'top' } },
-      scales: { y: { beginAtZero: false, grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
+      plugins: { 
+        legend: { 
+          position: 'top',
+          labels: { color: '#cbd5e1', font: { weight: 600 } }
+        },
+        tooltip: {
+          backgroundColor: '#1e293b',
+          titleColor: '#f8fafc',
+          bodyColor: '#e2e8f0',
+          borderColor: '#334155',
+          borderWidth: 1
+        }
+      },
+      scales: { 
+        y: { 
+          beginAtZero: false, 
+          grid: { color: 'rgba(255, 255, 255, 0.06)' },
+          ticks: { color: '#94a3b8' }
+        }, 
+        x: { 
+          grid: { display: false },
+          ticks: { color: '#94a3b8' }
+        } 
+      }
     }
   });
 
@@ -978,15 +978,27 @@
       labels: ['Bur Dubai HQ', 'Gold Souk Deira', 'Abu Dhabi (Al Reem)', 'Sharjah (Hamriyah)', 'All UAE Hub'],
       datasets: [{
         data: [12, 12, 12, 12, 12],
-        backgroundColor: ['#0b2545', '#134074', '#0284c7', '#38bdf8', '#22c55e'],
+        backgroundColor: ['#1e40af', '#2563eb', '#38bdf8', '#06b6d4', '#4ade80'],
         borderWidth: 2,
-        borderColor: '#fff'
+        borderColor: '#0f172a'
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { position: 'right' } }
+      plugins: { 
+        legend: { 
+          position: 'right',
+          labels: { color: '#cbd5e1', font: { weight: 500, size: 11 } }
+        },
+        tooltip: {
+          backgroundColor: '#1e293b',
+          titleColor: '#f8fafc',
+          bodyColor: '#e2e8f0',
+          borderColor: '#334155',
+          borderWidth: 1
+        }
+      }
     }
   });
 
@@ -1000,13 +1012,13 @@
         label: 'Monthly Search Volume (UAE)',
         data: [2900, 2400, 1300, 1000, 720, 480, 390],
         backgroundColor: [
-          'rgba(11, 37, 69, 0.85)',
-          'rgba(19, 64, 116, 0.85)',
-          'rgba(2, 132, 199, 0.85)',
-          'rgba(34, 197, 94, 0.85)',
-          'rgba(124, 58, 237, 0.85)',
-          'rgba(217, 119, 6, 0.85)',
-          'rgba(100, 116, 139, 0.85)'
+          '#38bdf8',
+          '#0284c7',
+          '#818cf8',
+          '#4ade80',
+          '#c084fc',
+          '#fbbf24',
+          '#94a3b8'
         ],
         borderRadius: 6
       }]
@@ -1014,8 +1026,26 @@
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: { y: { grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
+      plugins: { 
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e293b',
+          titleColor: '#f8fafc',
+          bodyColor: '#e2e8f0',
+          borderColor: '#334155',
+          borderWidth: 1
+        }
+      },
+      scales: { 
+        y: { 
+          grid: { color: 'rgba(255, 255, 255, 0.06)' },
+          ticks: { color: '#94a3b8' }
+        }, 
+        x: { 
+          grid: { display: false },
+          ticks: { color: '#cbd5e1', font: { weight: 600 } }
+        } 
+      }
     }
   });
 </script>
